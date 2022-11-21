@@ -1,7 +1,10 @@
 {
-	"name": "cheerio",
+	"name": "date-scraper",
 	"version": "1.0.0",
 	"main": "main.js",
+	"engines": {
+	    "node": "16.x"
+	  },
 	"scripts": {
 		"start": "nodemon main.js",
 		"json-server-watch": "json-server --watch json.json"
