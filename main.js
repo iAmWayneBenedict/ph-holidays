@@ -11,5 +11,7 @@ app.use(express.static(path.join(__dirname + "/src")));
 app.listen(8000, "127.0.0.1", function() {
     console.log("Listening on host 127.0.0.1 port 8000")
 })
-
-app.use("/", route)
+app.get("/", (req, res) => {
+    res.send("<h1>Welcome to date scraper API</h1>")
+})
+app.use("/holiday", route)
