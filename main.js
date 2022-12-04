@@ -22,8 +22,16 @@ app.listen(8000, "127.0.0.1", function () {
 const {data, setDate} = require("./src/js/toDate");
 
 const scraper = require("./scraper/scraper");
-(async () => {
-    console.log(await scraper())
-})();
+const { convertMonthToName, convertMonthToIndex, getMovableDates, yearUpdate } = require("./controller/dateController");
 
-//console.log(1)
+app.get("/scrape/save", async (req, res) => {
+//        console.log(await scraper());
+    let dataDates = data(await scraper())
+    setDate(dataDates)
+    res.json(dataDates)
+})
+
+app.get("/", (req, res) => {
+        let dara = fs.readFileSync("./src/json/date.json");
+        res.send(JSON.parse(dara))
+})

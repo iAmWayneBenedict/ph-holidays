@@ -1,5 +1,7 @@
 const cheerio = require("cheerio")
 const axios = require("axios")
+
+let date = new Date()
 const scraper = async () => {
     const response = await axios.get(
             `https://en.wikipedia.org/wiki/Public_holidays_in_the_Philippines`
@@ -18,6 +20,7 @@ const scraper = async () => {
 
 function getLocalObservance(localObservance, $) {
     let tempArr = []
+        let dateHoliday = "";
     localObservance.find("tbody tr").each(function(i, el) {
         let data = {
             date: "",
@@ -25,7 +28,11 @@ function getLocalObservance(localObservance, $) {
             fil_name: "",
             trans: "",
             type: "",
-            description: ""
+            description: "",
+            rule: {
+                inMonth: "",
+                inYear: ""
+            }
         }
         if (i === 0) return
 
@@ -36,21 +43,37 @@ function getLocalObservance(localObservance, $) {
 
             let strippedText = $(this).text().replaceAll(/(\[.*?\])|(\n)/g, '');
             if (firstEl.prop("tagName") === "TH" && self.children().length === 4) {
-                if(i === 0) data.date = strippedText
+                if(i === 0) {
+                    data.date = strippedText
+                    dateHoliday = strippedText
+                    if (strippedText.includes((date.getFullYear() + 1) + "")) data.rule.inYear = "+1"
+                    else if (strippedText.includes(date.getFullYear() + "")) data.rule.inYear = "+0"
+                    else data.rule.inYear = "-1"
+                }
                 if(i === 1) data.en_name = strippedText
                 if(i === 2) data.fil_name = strippedText
                 if(i === 3) {
                     data.description = strippedText
                     data.type = "Locally Observed Holiday"
                 }
+
             } else if(firstEl.prop("tagName") === "TH" && self.children().length === 3) {
-                if(i === 0) data.date = strippedText
+                if(i === 0) {
+                    data.date = strippedText
+                    if (strippedText.includes((date.getFullYear() + 1) + "")) data.rule.inYear = "+1"
+                    else if (strippedText.includes(date.getFullYear() + "")) data.rule.inYear = "+0"
+                    else data.rule.inYear = "-1"
+                }
                 if(i === 1) data.fil_name = strippedText
                 if(i === 2) {
                     data.description = strippedText
                     data.type = "Locally Observed Holiday"
                 }
             } else {
+                data.date = dateHoliday
+                if (dateHoliday.includes((date.getFullYear() + 1) + "")) data.rule.inYear = "+1"
+                else if (dateHoliday.includes(date.getFullYear() + "")) data.rule.inYear = "+0"
+                else data.rule.inYear = "-1"
                 if(i === 0) data.en_name = strippedText
                 if(i === 1) data.fil_name = strippedText
                 if(i === 2) {
@@ -73,20 +96,28 @@ function getWorkingHolidays(workingHolidays, $) {
             fil_name: "",
             trans: "",
             type: "",
-            description: ""
+            description: "",
+            rule: {
+                inMonth: "",
+                inYear: ""
+            }
         }
         if (i === 0) return
         if ($(this).children().length < 2) return
 
         $(this).children().each(function(i, el) {
             let strippedText = $(this).text().replaceAll(/(\[.*?\])|(\n)/g, '');
-            if (i === 0) data.date = strippedText
+            if(i === 0) {
+                    data.date = strippedText
+                    if (strippedText.includes((date.getFullYear() + 1) + "")) data.rule.inYear = "+1"
+                    else if (strippedText.includes(date.getFullYear() + "")) data.rule.inYear = "+0"
+                    else data.rule.inYear = "-1"
+            }
             else if (i === 1) data.en_name = strippedText
             else if (i === 2) data.fil_name = strippedText
             else if (i === 3) data.trans = strippedText
             else if (i === 4) data.description = strippedText
             data.type = "Working Holiday"
-
         })
         tempArr.push(data)
     })
@@ -103,12 +134,21 @@ function getRegularHoliday(regularHolidays, $) {
             fil_name: "",
             trans: "",
             type: "",
-            description: ""
+            description: "",
+            rule: {
+                inMonth: "",
+                inYear: ""
+            }
         }
         if (i === 0) return
         $(this).children().each(function(i, el) {
             let strippedText = $(this).text().replaceAll(/(\[.*?\])|(\n)/g, '');
-            if (i === 0) data.date = strippedText
+            if(i === 0) {
+                    data.date = strippedText
+                    if (strippedText.includes((date.getFullYear() + 1) + "")) data.rule.inYear = "+1"
+                    else if (strippedText.includes(date.getFullYear() + "")) data.rule.inYear = "+0"
+                    else data.rule.inYear = "-1"
+            }
             else if (i === 1) data.en_name = strippedText
             else if (i === 2) data.fil_name = strippedText
             else if (i === 3) data.trans = strippedText
