@@ -1,3 +1,4 @@
+const formatter = require("../src/js/formatter")
 let mon = [
     "January",
     "February",
@@ -60,7 +61,7 @@ const yearUpdate = (data) => {
         if (d.fil_name === "Peñafrancia Festival") {
             d.en_name = "Peñafrancia Festival"
             d.date = "9-";
-            d.rule.inMonth = "5, 2, 0, 3, +1"
+            d.rule.inMonth = "5, 2, 0, 3"
         }
 
     }
@@ -69,10 +70,6 @@ const yearUpdate = (data) => {
 //
 //            return getDay(2022, formatter(d.date.split("-")[0]), parseInt(rules[0]), parseInt(rules[1]))
 
-}
-
-const formatter = (number) => {
-    return new Intl.NumberFormat(undefined, { minimumIntegerDigits: 2 }).format(parseInt(number))
 }
 
 const getDay = (year, month, dayOfTheWeek, dayOfTheWeekPosition) => {
@@ -99,5 +96,6 @@ module.exports = {
 	convertMonthToIndex,
 	convertMonthToName,
     getMovableDates,
-    yearUpdate
+    yearUpdate,
+    getDay
 };

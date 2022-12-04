@@ -5,7 +5,6 @@ const {prettyPrintJson} = require("pretty-print-json")
 //import stringify from "json-stringify-pretty-compact";
 
 const data = (dara) => {
-//    let dara = fs.readFileSync("./src/Holiday.json");
     let data = dara;
     data = data.map((el) => {
         if (el.en_name === "Vesak Day") return
@@ -27,7 +26,7 @@ const data = (dara) => {
         if (el.fil_name === "Musikahan Festival") {
             el.en_name = "Musikahan Festival"
         }
-        if (el.fil_name === "Peñafrancia Festival") {
+        if (el.en_name === "Peñafrancia Festival") {
             el.en_name = "Peñafrancia Festival"
             el.date = "9-";
             el.rule.inMonth = "5, 2, 0, 3"
