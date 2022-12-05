@@ -15,7 +15,7 @@ app.listen(8000, "127.0.0.1", function () {
 // app.get("/", (req, res) => {
 // 	res.send("<h1>Welcome to ph dates API</h1>");
 // });
-// app.use("/holiday", route);
+ app.use("/", route);
 
 
 
@@ -31,36 +31,10 @@ app.get("/scrape/save", async (req, res) => {
     setDate(dataDates)
     res.send(dataDates)
 })
-const jsonObj = require("./src/json/date.json");
+
+const {getYear, isHolidayToday} = require("./controller/dateResponseController");
 
 app.get("/", async (req, res) => {
-    let temp = []
-        for (const d of jsonObj) {
-            if (!d) continue;
-            let dateTemp = d.date;
-            let tempDate;
-            let month = dateTemp.split("-")[0];
-            let year = req.query.year;
-            if (dateTemp.split("-").length > 1 && dateTemp.split("-")[1] !== "") {
-                if (dateTemp.includes(",")) {
-                    let day1 = dateTemp.split("-")[1].split(",")[0];
-                    let day2 = dateTemp.split("-")[1].split(",")[1];
-                    tempDate = `${month}/${day1}/${year}`;
-                    tempDate += ` - ${month}/${day2}/${year}`;
-                } else {
-                    tempDate = `${month}/${dateTemp.split("-")[1]}/${year}`;
-                }
-            }
-            else {
-                let [dayOfTheWeek, dayOfTheWeekPos, incrementor] = d.rule.inMonth.replaceAll(" ", "").split(",");
-                let day = getDay(year, formatter(month), parseInt(dayOfTheWeek), parseInt(dayOfTheWeekPos))
-                if (incrementor === "+1") {
-                    day = getDay(year, formatter(month), parseInt(dayOfTheWeek), parseInt(dayOfTheWeekPos)) + 1
-                }
-                tempDate = `${month}/${day}/${year}`;
-            }
-            temp.push(tempDate)
-        }
-        res.send(temp)
+    res.send(isHolidayToday());
 //    res.json(getDay(2022, "12", 2, 2))
 })
