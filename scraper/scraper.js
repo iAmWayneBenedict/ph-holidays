@@ -152,7 +152,7 @@ function getRegularHoliday(regularHolidays, $) {
             else if (i === 1) data.en_name = strippedText
             else if (i === 2) data.fil_name = strippedText
             else if (i === 3) data.trans = strippedText
-            else if (i === 4) data.type = strippedText
+            else if (i === 4) data.type = strippedText + " Holiday"
             else if (i === 5) data.description = strippedText
 
         })
