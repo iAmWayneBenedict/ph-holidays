@@ -1,3 +1,28 @@
-.json-key {
-	color: aqua;
+html {
+	scroll-behavior: smooth;
+}
+.json-key,
+.keyword {
+	color: #026166;
+}
+.json-mark {
+	color: rgb(0, 110, 15);
+}
+.method {
+	color: blue;
+}
+
+.hamburger.active {
+	transform: rotate(-180deg);
+}
+
+.hamburger.active span:nth-child(1) {
+	transform: rotate(40deg) translateX(0) translateY(0.8rem);
+}
+
+.hamburger.active span:nth-child(2) {
+	opacity: 0;
+}
+.hamburger.active span:nth-child(3) {
+	transform: rotate(-40deg) translateX(0) translateY(-0.7rem);
 }

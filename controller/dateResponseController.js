@@ -27,7 +27,7 @@ const getMonth = (year, month) => {
 
 	return foundResponse(
 		dates.filter((date) => {
-			let dateObj = new Date(date.date);
+			let dateObj = new Date(date.date.from.fullDate);
 			if (dateObj.getMonth() + 1 === parseInt(month)) return date;
 		})
 	);
@@ -57,7 +57,7 @@ const isHoliday = (date) => {
 		};
 
 	return {
-		status: "not found",
+		status: "found",
 		statusCode: 200,
 		today: new Date().toDateString(),
 		holiday: false,
