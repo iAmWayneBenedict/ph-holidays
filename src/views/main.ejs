@@ -9,26 +9,13 @@
 		href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
 		rel="stylesheet"
 	/>
+	<link rel="stylesheet" href="../css/main.css" />
 </head>
-<style>
-	html {
-		scroll-behavior: smooth;
-	}
-	.json-key,
-	.keyword {
-		color: #026166;
-	}
-	.json-mark {
-		color: rgb(0, 110, 15);
-	}
-	.method {
-		color: blue;
-	}
-</style>
-<body class="container mx-auto" style="font-family: Montserrat">
+
+<body class="container mx-auto p-5" style="font-family: Montserrat">
 	<nav class="flex justify-between py-5 mb-28 items-center">
 		<div class="font-bold">PH Holidays &#x1F1F5;&#x1F1ED;</div>
-		<div class="flex gap-20">
+		<div class="gap-20 hidden md:flex">
 			<a
 				class="relative after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
 				href=""
@@ -44,7 +31,7 @@
 			>
 		</div>
 		<div class="flex gap-5 items-center right-nav">
-			<button class="github-btn">
+			<a href="https://github.com/iAmWayneBenedict/ph-holidays" class="github-btn">
 				<svg
 					class="feather feather-github"
 					xmlns="http://www.w3.org/2000/svg"
@@ -61,13 +48,44 @@
 						d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
 					></path>
 				</svg>
+			</a>
+			<button class="bg-[#00ADB5] text-white py-2 px-4 font-semibold hidden md:flex">
+				Get Started
 			</button>
-			<button class="bg-[#00ADB5] text-white py-2 px-4 font-semibold">Get Started</button>
+			<button
+				class="hamburger flex md:hidden flex-col justify-evenly items-center w-[35px] h-[35px] z-50 transition-all duration-300"
+			>
+				<span class="bg-black w-full h-[2px] transition-all duration-[600ms]"></span>
+				<span class="bg-black w-full h-[2px] transition-all duration-300 delay-75"></span>
+				<span class="bg-black w-full h-[2px] transition-all duration-[600ms]"></span>
+			</button>
 		</div>
 	</nav>
-	<div class="flex mx-0 lg:mx-36 gap-20">
-		<aside class="base-1/3 mt-10">
-			<div class="sticky top-10 flex flex-col gap-5">
+	<div
+		class="backdrop z-20 hidden fixed top-0 left-0 w-full h-full bg-white transition-all duration-1000"
+	>
+		<div class="gap-5 flex flex-col items-center justify-center w-full h-full">
+			<button class="bg-[#00ADB5] text-white py-2 px-4 font-semibold flex w-fit">
+				Get Started
+			</button>
+			<a
+				class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+				href=""
+				>Docs</a
+			><a
+				class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+				href=""
+				>Pricing</a
+			><a
+				class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+				href=""
+				>Donate</a
+			>
+		</div>
+	</div>
+	<div class="flex flex-row mx-0 xl:mx-24 2xl:mx-36 gap-0 lg:gap-20">
+		<aside class="lg:w-60 hidden lg:flex w-full mt-10">
+			<div class="relative lg:sticky lg:top-10 hidden lg:flex flex-col gap-5">
 				<a
 					href="#base_url"
 					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
@@ -131,7 +149,7 @@
 				<div
 					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
-					<code><span class="method">GET</span> /api/today</code>
+					<code><span class="method">GET</span> /today</code>
 				</div>
 				<h3 class="text-lg">
 					Sample response <span class="font-semibold"><small>(holiday)</small></span>
