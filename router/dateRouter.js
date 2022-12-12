@@ -10,6 +10,8 @@ const monthRouter = (req, res) => {
 }
 
 const todayRouter = (req, res) => {
+//    let {keyPass} = req.params
+    
     let response = isHolidayToday();
     res.status(200).json(response)
 }
