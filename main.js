@@ -12,7 +12,7 @@ app.listen(8000, "127.0.0.1", function () {
 	console.log("Listening on host 127.0.0.1 port 8000");
 });
 
-app.set("view engine", "pug");
+app.set("view engine", "ejs");
 app.set("views", "./src/views");
 
 app.use("/", route);
@@ -29,7 +29,6 @@ const {
 } = require("./controller/dateController");
 
 const formatter = require("./src/js/formatter");
-const { prettyPrintJson } = require("pretty-print-json");
 
 app.get("/scrape/save", async (req, res) => {
 	//        console.log(await scraper());
@@ -47,7 +46,7 @@ const {
 
 app.get("/search", (req, res) => {
 	let { q } = req.query;
-	res.send(prettyPrintJson.toHtml(searchQuery(q)));
+	res.json(searchQuery(q));
 });
 
 app.use((req, res, next) => {
