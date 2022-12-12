@@ -11,6 +11,9 @@
 	/>
 </head>
 <style>
+	html {
+		scroll-behavior: smooth;
+	}
 	.json-key,
 	.keyword {
 		color: #026166;
@@ -63,10 +66,43 @@
 		</div>
 	</nav>
 	<div class="flex mx-0 lg:mx-36 gap-20">
-		<aside class="base-1/3 mt-10"><span>asdasdasd</span></aside>
+		<aside class="base-1/3 mt-10">
+			<div class="sticky top-10 flex flex-col gap-5">
+				<a
+					href="#base_url"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Base Url</a
+				>
+				<a
+					href="#get_todays_info"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Get Todays Info</a
+				>
+				<a
+					href="#get_per_year"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Get Per Year</a
+				>
+				<a
+					href="#get_per_month"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Get Per Month</a
+				>
+				<a
+					href="#get_per_day"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Get Per Day</a
+				>
+				<a
+					href="#search_for_keyword"
+					class="relative w-fit after:absolute after:bottom-[-5px] after:left-0 after:bg-[#00ADB5] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>Search For Keyword</a
+				>
+			</div>
+		</aside>
 		<main class="flex flex-col w-full">
 			<h1 class="text-3xl font-semibold mb-10">Documentation</h1>
-			<div>
+			<div id="base_url">
 				<h2 class="text-2xl font-semibold mb-10">Base URL</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">
@@ -88,7 +124,7 @@
 					>
 				</div>
 			</div>
-			<div>
+			<div id="get_todays_info">
 				<h2 class="text-2xl font-semibold my-10">Get Todays Info</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">Get todays info.</p>
@@ -152,7 +188,7 @@
 	<span class=json-mark>}</span>
 			</pre>
 			</div>
-			<div class="mt-10">
+			<div class="mt-10" id="get_per_year">
 				<h2 class="text-2xl font-semibold my-10">Get Per Year</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">
@@ -230,7 +266,7 @@
 
 			</pre>
 			</div>
-			<div class="mt-10">
+			<div class="mt-10" id="get_per_month">
 				<h2 class="text-2xl font-semibold my-10">Get Per Month</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">
@@ -320,7 +356,7 @@
 
 			</pre>
 			</div>
-			<div class="mt-10">
+			<div class="mt-10" id="get_per_day">
 				<h2 class="text-2xl font-semibold my-10">Get Per Day</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">
@@ -387,7 +423,7 @@
 
 			</pre>
 			</div>
-			<div class="mt-10">
+			<div class="mt-10" id="search_for_keyword">
 				<h2 class="text-2xl font-semibold my-10">Search for keyword</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
 				<p class="text-md">
