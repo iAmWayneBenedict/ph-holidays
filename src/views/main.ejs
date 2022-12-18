@@ -111,18 +111,18 @@
 			<div id="base_url">
 				<h2 class="text-2xl font-semibold mb-10">Base URL</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">
+				<p class="text-md text-sm md:text-base">
 					Replace <span class="font-semibold">api_key</span> and
 					<span class="font-semibold">api_pass</span> with your api key and api pass.
 				</p>
-				<p class="mt-2">
+				<p class="mt-2 text-sm md:text-base">
 					You can view your api key and pass here:
 					<a href="#" class="underline text-[#F49D1A]">to api key</a>
 				</p>
 				<div
-					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
+					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3 text-sm md:text-base"
 				>
-					<code
+					<code class="text-sm md:text-base"
 						>http://127.0.0.1:8000/{<span class="keyword">api_key</span>}&{<span
 							class="keyword"
 							>api_pass</span
@@ -133,24 +133,24 @@
 			<div id="get_todays_info">
 				<h2 class="text-2xl font-semibold my-10">Get Todays Info</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">Get todays info.</p>
+				<p class="text-sm md:text-base">Get todays info.</p>
 				<div
-					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
+					class="border border-gray-200 text-sm md:text-base rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
-					<code><span class="method">GET</span> /today</code>
+					<code class="text-sm md:text-base"><span class="method">GET</span> /today</code>
 				</div>
 				<h3 class="text-lg">
 					Sample response <span class="font-semibold"><small>(holiday)</small></span>
 				</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
 		<span class=json-key>today</span><span class=json-mark>: </span><span class=json-string>"Sun Dec 25 2022"</span><span class=json-mark>,</span>
 		<span class=json-key>holiday</span><span class=json-mark>: </span><span class=json-boolean>true</span><span class=json-mark>,</span>
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is Regular Holiday"</span><span class=json-mark>,</span>  
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is Regular Holiday"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>{</span>
 			<span class=json-key>date</span><span class=json-mark>: </span><span class=json-mark>{</span>
 				<span class=json-key>from</span><span class=json-mark>: </span><span class=json-mark>{</span>
@@ -182,14 +182,14 @@
 					Sample response <span class="font-semibold"><small>(not holiday)</small></span>
 				</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
 		<span class=json-key>today</span><span class=json-mark>: </span><span class=json-string>"Mon Dec 12 2022"</span><span class=json-mark>,</span>
-		<span class=json-key>holiday</span><span class=json-mark>: </span><span class=json-string>false</span><span class=json-mark>,</span>      
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is not Holiday"</span><span class=json-mark>,</span>      
+		<span class=json-key>holiday</span><span class=json-mark>: </span><span class=json-string>false</span><span class=json-mark>,</span>
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is not Holiday"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>[]</span>
 	<span class=json-mark>}</span>
 			</pre>
@@ -197,10 +197,10 @@
 			<div class="mt-10" id="get_per_year">
 				<h2 class="text-2xl font-semibold my-10">Get Per Year</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">
+				<p class="text-sm md:text-base">
 					Replace <span class="font-semibold">year</span> with your query.
 				</p>
-				<p>Example: <span class="font-semibold">2023</span></p>
+				<p class="text-sm md:text-base">Example: <span class="font-semibold">2023</span></p>
 				<div
 					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
@@ -210,12 +210,12 @@
 				</div>
 				<h3 class="text-lg">Sample response</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>    
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>[</span>
 		<span class=json-mark>{</span>
 			<span class=json-key>date</span><span class=json-mark>: </span><span class=json-mark>{</span>
@@ -232,7 +232,7 @@
 					<span class=json-key>year</span><span class=json-mark>: </span><span class=json-number>2022</span>
 				<span class=json-mark>}</span>
 			<span class=json-mark>},</span>
-			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>   
+			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>
 			<span class=json-key>fil_name</span><span class=json-mark>: </span><span class=json-string>"Sample Filipino Name"</span><span class=json-mark>,</span>
 			<span class=json-key>trans</span><span class=json-mark>: </span><span class=json-string>""</span><span class=json-mark>,</span>
 			<span class=json-key>type</span><span class=json-mark>: </span><span class=json-string>"Locally Observed Holiday"</span><span class=json-mark>,</span>
@@ -275,21 +275,21 @@
 			<div class="mt-10" id="get_per_month">
 				<h2 class="text-2xl font-semibold my-10">Get Per Month</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">
+				<p class="text-sm md:text-base">
 					Replace <span class="font-semibold">year</span> and
 					<span class="font-semibold">month</span> with your query.
 				</p>
-				<p>
+				<p class="text-sm md:text-base">
 					<span class="font-semibold">Note:</span> Month should be in number format. As
 					for the example, number <span class="font-semibold">2</span> is
 					<span class="font-semibold">February</span>
 				</p>
-				<p>
+				<p class="text-sm md:text-base">
 					Example: <span class="font-semibold">2023</span> and
 					<span class="font-semibold">2</span>
 				</p>
 				<div
-					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
+					class="text-sm md:text-base border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
 					<code
 						><span class="method">GET</span> /{<span class="keyword">year</span>}/{<span
@@ -300,12 +300,12 @@
 				</div>
 				<h3 class="text-lg">Sample response</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>    
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>[</span>
 		<span class=json-mark>{</span>
 			<span class=json-key>date</span><span class=json-mark>: </span><span class=json-mark>{</span>
@@ -322,7 +322,7 @@
 					<span class=json-key>year</span><span class=json-mark>: </span><span class=json-number>2022</span>
 				<span class=json-mark>}</span>
 			<span class=json-mark>},</span>
-			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>   
+			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>
 			<span class=json-key>fil_name</span><span class=json-mark>: </span><span class=json-string>"Sample Filipino Name"</span><span class=json-mark>,</span>
 			<span class=json-key>trans</span><span class=json-mark>: </span><span class=json-string>""</span><span class=json-mark>,</span>
 			<span class=json-key>type</span><span class=json-mark>: </span><span class=json-string>"Locally Observed Holiday"</span><span class=json-mark>,</span>
@@ -365,23 +365,23 @@
 			<div class="mt-10" id="get_per_day">
 				<h2 class="text-2xl font-semibold my-10">Get Per Day</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">
+				<p class="text-md text-sm md:text-base">
 					Replace <span class="font-semibold">year</span>,
 					<span class="font-semibold">month</span> and
 					<span class="font-semibold">day</span> with your query.
 				</p>
-				<p>
+				<p class="text-sm md:text-base">
 					<span class="font-semibold">Note:</span> Month should be in number format. As
 					for the example, number <span class="font-semibold">12</span> is
 					<span class="font-semibold">December</span>
 				</p>
-				<p>
+				<p class="text-sm md:text-base">
 					Example: <span class="font-semibold">2022</span>,
 					<span class="font-semibold">12</span> and
 					<span class="font-semibold">25</span>
 				</p>
 				<div
-					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
+					class="text-sm md:text-base border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
 					<code
 						><span class="method">GET</span> /{<span class="keyword">year</span>}/{<span
@@ -392,14 +392,14 @@
 				</div>
 				<h3 class="text-lg">Sample response</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
 		<span class=json-key>today</span><span class=json-mark>: </span><span class=json-string>"Sun Dec 25 2022"</span><span class=json-mark>,</span>
 		<span class=json-key>holiday</span><span class=json-mark>: </span><span class=json-boolean>true</span><span class=json-mark>,</span>
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is Regular Holiday"</span><span class=json-mark>,</span>  
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Today is Regular Holiday"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>{</span>
 			<span class=json-key>date</span><span class=json-mark>: </span><span class=json-mark>{</span>
 				<span class=json-key>from</span><span class=json-mark>: </span><span class=json-mark>{</span>
@@ -432,12 +432,14 @@
 			<div class="mt-10" id="search_for_keyword">
 				<h2 class="text-2xl font-semibold my-10">Search for keyword</h2>
 				<h3 class="text-lg mb-5 font-semibold">Sample request</h3>
-				<p class="text-md">
+				<p class="text-md text-sm md:text-base">
 					Replace <span class="font-semibold">sample keyword</span> with your query.
 				</p>
-				<p>Example: <span class="font-semibold">Makati</span></p>
+				<p class="text-sm md:text-base">
+					Example: <span class="font-semibold">Makati</span>
+				</p>
 				<div
-					class="border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
+					class="text-sm md:text-base border border-gray-200 rounded-lg bg-gray-100 p-3 mb-10 overflow-hidden mt-3"
 				>
 					<code
 						><span class="method">GET</span> /search/q={<span class="keyword"
@@ -447,12 +449,12 @@
 				</div>
 				<h3 class="text-lg">Sample response</h3>
 				<pre
-					class="border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-hidden mt-3"
+					class="text-sm border border-gray-200 rounded-lg bg-gray-100 py-5 overflow-x-scroll mt-3"
 				>
 	<span class=json-mark>{</span>
 		<span class=json-key>status</span><span class=json-mark>: </span><span class=json-string>"found"</span><span class=json-mark>,</span>
 		<span class=json-key>statusCode</span><span class=json-mark>: </span><span class=json-number>200</span><span class=json-mark>,</span>
-		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>    
+		<span class=json-key>message</span><span class=json-mark>: </span><span class=json-string>"Your request is found!"</span><span class=json-mark>,</span>
 		<span class=json-key>data</span><span class=json-mark>: </span><span class=json-mark>[</span>
 		<span class=json-mark>{</span>
 			<span class=json-key>date</span><span class=json-mark>: </span><span class=json-mark>{</span>
@@ -469,7 +471,7 @@
 					<span class=json-key>year</span><span class=json-mark>: </span><span class=json-number>2022</span>
 				<span class=json-mark>}</span>
 			<span class=json-mark>},</span>
-			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>   
+			<span class=json-key>en_name</span><span class=json-mark>: </span><span class=json-string>"Sample English Name"</span><span class=json-mark>,</span>
 			<span class=json-key>fil_name</span><span class=json-mark>: </span><span class=json-string>"Sample Filipino Name"</span><span class=json-mark>,</span>
 			<span class=json-key>trans</span><span class=json-mark>: </span><span class=json-string>""</span><span class=json-mark>,</span>
 			<span class=json-key>type</span><span class=json-mark>: </span><span class=json-string>"Locally Observed Holiday"</span><span class=json-mark>,</span>
@@ -518,32 +520,50 @@
 		<div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
 			<nav class="flex flex-wrap justify-center -mx-5 -my-2">
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						About
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						Blog
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						Team
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						Pricing
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						Contact
 					</a>
 				</div>
 				<div class="px-5 py-2">
-					<a href="#" class="text-base leading-6 text-gray-500 hover:text-gray-900">
+					<a
+						href="#"
+						class="text-sm md:text-base leading-6 text-gray-500 hover:text-gray-900"
+					>
 						Terms
 					</a>
 				</div>
