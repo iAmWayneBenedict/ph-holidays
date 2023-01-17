@@ -2,15 +2,33 @@ const path = require("path");
 const express = require("express");
 const app = express();
 const axios = require("axios");
-const cheerio = require("cheerio");
 const fs = require("fs");
 const route = require("./routes/route");
+const session = require("express-session");
+const cryptoJS = require("crypto-js");
+const config = require("./config");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const cookieParser = require("cookie-parser");
 
 app.use(express.static(path.join(__dirname + "/src")));
 
-app.listen(8000, "127.0.0.1", function () {
-	console.log("Listening on host 127.0.0.1 port 8000");
-});
+(async () => {
+	try {
+		mongoose.set("strictQuery", "true");
+		await mongoose.connect(config.mongoDBURI);
+		await app.listen(config.port, config.url, () =>
+			console.log("Listening on host 127.0.0.1 port 3000")
+		);
+	} catch (err) {
+		console.log(err);
+	}
+})();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(cookieParser());
 
 app.set("view engine", "ejs");
 app.set("views", "./src/views");

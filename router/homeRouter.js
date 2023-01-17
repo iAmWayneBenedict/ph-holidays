@@ -2,4 +2,11 @@ const home = (req, res) => {
 	res.render("main");
 };
 
-module.exports = home;
+const pricing = (req, res) => {
+	res.render("pricing");
+};
+
+module.exports = {
+	home,
+	pricing,
+};

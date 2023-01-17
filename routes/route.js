@@ -1,12 +1,17 @@
 const router = require("express").Router();
 const getDate = require("../controller/getDate");
-const home = require("../router/homeRouter");
+const { home, pricing } = require("../router/homeRouter");
 const { todayRouter, yearRouter, monthRouter, holiday } = require("../router/dateRouter");
-const { login, register } = require("../router/auth");
+const { login, register, postRegister } = require("../router/auth");
+
+const express = require("express");
 
 //router.get("/:keyPass/ph/:year", getDate)
 router.get("/", home);
 router.get("/login", login);
+
+router.get("/pricing", pricing);
+router.post("/postRegister", postRegister);
 router.get("/register", register);
 router.get("/:keyPass/api/today", todayRouter);
 router.get("/:keyPass/api/:year", yearRouter);
