@@ -26,6 +26,7 @@ app.use(express.static(path.join(__dirname + "/src")));
 })();
 
 app.use(bodyParser.json());
+app.use(cookieParser(process.env.PASS_KEY));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(cookieParser());
