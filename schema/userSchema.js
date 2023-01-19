@@ -32,4 +32,20 @@ userSchema.statics.signup = async function (email, password) {
 	return this.create({ email, password: hash });
 };
 
+userSchema.statics.login = async function (email, password) {
+	if (password.length < 8) throw Error("Password must be at least 8 characters");
+
+	if (!validator.isEmail(email)) throw Error("Email is not valid");
+
+	let user = await this.findOne({ email });
+
+	if (!user) throw Error("Incorrect email or password");
+
+	let isMatched = await bcrypt.compare(password, user.password);
+
+	if (!isMatched) throw Error("Incorrect email or password");
+
+	return user;
+};
+
 module.exports = userSchema;

@@ -19,19 +19,46 @@ const removeCookie = (res, key) => {
 };
 
 const login = (req, res) => {
+	// removeCookie(res, "token");
+	if (hasSignedUser(req)) return res.redirect("/");
+
 	res.render("login");
 };
 
 const register = (req, res) => {
+	if (hasSignedUser(req)) return res.redirect("/");
+
 	res.render("register");
 };
 
-const postRegister = async (req, res) => {
-	if (hasSignedUser(req))
-		return res.status(201).json({
-			msg: "Already signed in",
+const postLogin = async (req, res) => {
+	const { email, password } = req.body;
+
+	try {
+		let user = await loginController(email, password);
+
+		let token = createToken(user?._id);
+
+		res.cookie("token", token, {
+			expires: new Date(Date.now() + 604800000),
+			signed: true,
 		});
 
+		res.status(200).json({
+			msg: "Successfully Signed in",
+			code: 200,
+			user,
+		});
+	} catch (err) {
+		res.status(403).json({
+			email,
+			msg: err.message,
+			code: 403,
+		});
+	}
+};
+
+const postRegister = async (req, res) => {
 	const { email, password, "confirm-password": confirmPassword } = req.body;
 	try {
 		let user = await registerController(email, password, confirmPassword);
@@ -60,5 +87,6 @@ const postRegister = async (req, res) => {
 module.exports = {
 	register,
 	login,
+	postLogin,
 	postRegister,
 };
