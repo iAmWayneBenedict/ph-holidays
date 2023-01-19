@@ -1,18 +1,14 @@
-const showPassword = document.querySelector("#show-password");
-const password = document.querySelector("#password");
-const loginForm = document.querySelector("#login-form");
+const registerForm = document.querySelector("#register-form");
 const email = document.querySelector("#email");
+const password = document.querySelector("#password");
+const confirmPassword = document.querySelector("#confirm-password");
+
 const errorHandler = document.querySelector(".error-handler").firstElementChild;
 
-// Show password
-showPassword.addEventListener("change", (event) => {
-	event.currentTarget.checked ? (password.type = "text") : (password.type = "password");
-});
-
-loginForm.addEventListener("submit", async (event) => {
+registerForm.addEventListener("submit", async (event) => {
 	event.preventDefault();
 
-	let response = await fetch("/postLogin", {
+	const response = await fetch("/postRegister", {
 		method: "POST",
 		headers: {
 			"Content-Type": "application/json",
@@ -21,10 +17,11 @@ loginForm.addEventListener("submit", async (event) => {
 		body: JSON.stringify({
 			email: email.value,
 			password: password.value,
+			"confirm-password": confirmPassword.value,
 		}),
 	});
 
-	let data = await response.json();
+	const data = await response.json();
 
 	if (data.code === 200) {
 		errorHandler.parentElement.classList.remove("hidden");
@@ -33,8 +30,6 @@ loginForm.addEventListener("submit", async (event) => {
 		errorHandler.parentElement.classList.add("flex");
 		errorHandler.classList.add("text-green-500");
 		errorHandler.parentElement.classList.add("bg-green-100");
-
-		location.href = "/";
 	} else {
 		errorHandler.parentElement.classList.add("flex");
 		errorHandler.parentElement.classList.remove("hidden");
@@ -46,3 +41,14 @@ loginForm.addEventListener("submit", async (event) => {
 
 	errorHandler.textContent = data.msg;
 });
+// const googleAuthBtn = document.querySelector("#googleAuth");
+// googleAuthBtn.addEventListener("click", googleAuth);
+// const googleAuth = async () => {
+// 	const googleProvider = new GoogleAuthProvider();
+// 	try {
+// 		const result = await signInWithPopup(auth, googleProvider);
+// 		console.log(result);
+// 	} catch (err) {
+// 		console.log(err);
+// 	}
+// };

@@ -15,6 +15,9 @@ const userSchema = new Schema({
 		type: String,
 		required: [true, "password is required"],
 	},
+	providers: {
+		type: [String],
+	},
 });
 
 userSchema.statics.signup = async function (email, password) {
@@ -44,6 +47,34 @@ userSchema.statics.login = async function (email, password) {
 	let isMatched = await bcrypt.compare(password, user.password);
 
 	if (!isMatched) throw Error("Incorrect email or password");
+
+	return user;
+};
+
+userSchema.statics.auth = async function (email, provider) {
+	let user = await this.findOne({ email });
+
+	if (!user) {
+		return this.create({
+			email,
+			password: " ",
+			providers: [...provider],
+		});
+	}
+	if (!user.providers[provider]) {
+		return this.findOneAndUpdate(
+			{ email },
+			{
+				$addToSet: {
+					providers: provider,
+				},
+			},
+			{
+				new: true,
+				upsert: true,
+			}
+		);
+	}
 
 	return user;
 };

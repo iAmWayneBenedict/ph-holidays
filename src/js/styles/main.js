@@ -26,3 +26,9 @@ sideLinks.forEach((el) => [
 		e.currentTarget.firstElementChild?.setAttribute("fill", "#878C8D");
 	}),
 ]);
+
+let url = window.location.href;
+
+if (url.includes("#")) {
+	location.href = url.replace("#", "?");
+}

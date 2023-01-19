@@ -2,7 +2,7 @@ const router = require("express").Router();
 const getDate = require("../controller/getDate");
 const { home, pricing } = require("../router/homeRouter");
 const { todayRouter, yearRouter, monthRouter, holiday } = require("../router/dateRouter");
-const { login, register, postLogin, postRegister } = require("../router/auth");
+const { login, register, postLogin, postRegister, googleAuth } = require("../router/auth");
 
 const express = require("express");
 
@@ -10,6 +10,7 @@ const express = require("express");
 router.get("/", home);
 router.get("/login", login);
 router.post("/postLogin", postLogin);
+router.get("/googleAuth", googleAuth);
 
 router.get("/pricing", pricing);
 router.post("/postRegister", postRegister);

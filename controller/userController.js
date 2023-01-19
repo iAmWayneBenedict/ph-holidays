@@ -18,7 +18,16 @@ const registerController = async (email, password, confirmPassword) => {
 	}
 };
 
+const authController = async (email, provider) => {
+	try {
+		return await User.auth(email, provider);
+	} catch (error) {
+		throw error;
+	}
+};
+
 module.exports = {
 	loginController,
 	registerController,
+	authController,
 };

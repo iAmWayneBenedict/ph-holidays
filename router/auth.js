@@ -4,6 +4,8 @@ const app = express();
 // const cookieParser = require("cookie-parser");
 const { createToken } = require("../token/createToken");
 const bodyParser = require("body-parser");
+const { createClient } = require("@supabase/supabase-js");
+
 require("dotenv");
 
 // app.use(cookieParser(process.env.PASS_KEY));
@@ -84,9 +86,21 @@ const postRegister = async (req, res) => {
 	}
 };
 
+const googleAuth = async (req, res) => {
+	// Create a single supabase client for interacting with your database
+	const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SECRET);
+
+	const { data, error } = await supabase.auth.signInWithOAuth({
+		provider: "google",
+	});
+
+	res.redirect(data.url);
+};
+
 module.exports = {
 	register,
 	login,
 	postLogin,
 	postRegister,
+	googleAuth,
 };
