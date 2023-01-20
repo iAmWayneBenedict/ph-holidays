@@ -9,6 +9,7 @@ const {
 	postRegister,
 	googleAuth,
 	githubAuth,
+	verification,
 } = require("../router/auth");
 
 const express = require("express");
@@ -16,6 +17,7 @@ const express = require("express");
 //router.get("/:keyPass/ph/:year", getDate)
 router.get("/", home);
 router.get("/login", login);
+router.get("/verification", verification);
 router.post("/postLogin", postLogin);
 router.get("/googleAuth", googleAuth);
 router.get("/githubAuth", githubAuth);
