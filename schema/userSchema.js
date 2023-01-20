@@ -51,32 +51,32 @@ userSchema.statics.login = async function (email, password) {
 	return user;
 };
 
-userSchema.statics.auth = async function (email, provider) {
+userSchema.statics.authRegister = async function (email, providers) {
 	let user = await this.findOne({ email });
 
 	if (!user) {
 		return this.create({
 			email,
 			password: " ",
-			providers: [provider],
+			providers: providers,
 		});
 	}
-	if (!user.providers[provider]) {
-		return this.findOneAndUpdate(
-			{ email },
-			{
-				$addToSet: {
-					providers: provider,
-				},
-			},
-			{
-				new: true,
-				upsert: true,
-			}
-		);
+
+	return this.findOneAndUpdate({ email }, { providers });
+};
+
+userSchema.statics.authLogin = async function (email, providers) {
+	let user = await this.findOne({ email });
+
+	if (!user) {
+		return this.create({
+			email,
+			password: " ",
+			providers: providers,
+		});
 	}
 
-	return user;
+	return this.findOneAndUpdate({ email }, { providers });
 };
 
 module.exports = userSchema;

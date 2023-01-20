@@ -21,7 +21,7 @@ const removeCookie = (res, key) => {
 };
 
 const login = (req, res) => {
-	// removeCookie(res, "token");
+	removeCookie(res, "token");
 	if (hasSignedUser(req)) return res.redirect("/");
 
 	res.render("login");
@@ -97,10 +97,22 @@ const googleAuth = async (req, res) => {
 	res.redirect(data.url);
 };
 
+const githubAuth = async (req, res) => {
+	// Create a single supabase client for interacting with your database
+	const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SECRET);
+
+	const { data, error } = await supabase.auth.signInWithOAuth({
+		provider: "github",
+	});
+
+	res.redirect(data.url);
+};
+
 module.exports = {
 	register,
 	login,
 	postLogin,
 	postRegister,
 	googleAuth,
+	githubAuth,
 };
