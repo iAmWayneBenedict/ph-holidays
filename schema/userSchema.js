@@ -15,6 +15,9 @@ const userSchema = new Schema({
 		type: String,
 		required: [true, "password is required"],
 	},
+	providers: {
+		type: [String],
+	},
 });
 
 userSchema.statics.signup = async function (email, password) {
@@ -30,6 +33,50 @@ userSchema.statics.signup = async function (email, password) {
 	let hash = await bcrypt.hash(password, salt);
 
 	return this.create({ email, password: hash });
+};
+
+userSchema.statics.login = async function (email, password) {
+	if (password.length < 8) throw Error("Password must be at least 8 characters");
+
+	if (!validator.isEmail(email)) throw Error("Email is not valid");
+
+	let user = await this.findOne({ email });
+
+	if (!user) throw Error("Incorrect email or password");
+
+	let isMatched = await bcrypt.compare(password, user.password);
+
+	if (!isMatched) throw Error("Incorrect email or password");
+
+	return user;
+};
+
+userSchema.statics.auth = async function (email, provider) {
+	let user = await this.findOne({ email });
+
+	if (!user) {
+		return this.create({
+			email,
+			password: " ",
+			providers: [...provider],
+		});
+	}
+	if (!user.providers[provider]) {
+		return this.findOneAndUpdate(
+			{ email },
+			{
+				$addToSet: {
+					providers: provider,
+				},
+			},
+			{
+				new: true,
+				upsert: true,
+			}
+		);
+	}
+
+	return user;
 };
 
 module.exports = userSchema;

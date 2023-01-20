@@ -36,18 +36,24 @@
 							</p>
 						</div>
 
-						<form action="/login/password" method="POST" class="flex flex-col">
+						<div
+							class="error-handler my-5 bg-red-100 hidden justify-center py-2 rounded-lg"
+						>
+							<span class="text-red-500 font-bold"></span>
+						</div>
+
+						<form action="" id="login-form" method="POST" class="flex flex-col">
 							<!-- Email -->
 
 							<%- include("components/input", { label: "Email", type: "email",
 							placeholder: "Enter your email", name: "email", error: "sample error",
-							isError: false }) %>
+							isError: false, value: "" }) %>
 
 							<!-- Password -->
 
 							<%- include("components/input", { label: "Password", type: "password",
 							placeholder: "••••••••", name: "password", error: "sample error",
-							isError: false }) %>
+							isError: false, value: "" }) %>
 
 							<div class="flex justify-between">
 								<div class="flex gap-2 select-none">
@@ -70,7 +76,7 @@
 
 							<div class="buttons flex flex-col mt-7 gap-3">
 								<button
-									type="button"
+									type="submit"
 									class="bg-[#F49D1A] text-white rounded-lg py-3 font-semibold text-sm md:text-base"
 								>
 									Sign in

@@ -1,6 +1,12 @@
 const User = require("../model/User");
 
-const loginController = () => {};
+const loginController = async (email, password) => {
+	try {
+		return await User.login(email, password);
+	} catch (error) {
+		throw error;
+	}
+};
 
 const registerController = async (email, password, confirmPassword) => {
 	if (password !== confirmPassword) throw Error("Password not matched!");
@@ -12,7 +18,16 @@ const registerController = async (email, password, confirmPassword) => {
 	}
 };
 
+const authController = async (email, provider) => {
+	try {
+		return await User.auth(email, provider);
+	} catch (error) {
+		throw error;
+	}
+};
+
 module.exports = {
 	loginController,
 	registerController,
+	authController,
 };
