@@ -41,6 +41,7 @@ registerForm.addEventListener("submit", async (event) => {
 
 	errorHandler.textContent = data.msg;
 });
+
 // const googleAuthBtn = document.querySelector("#googleAuth");
 // googleAuthBtn.addEventListener("click", googleAuth);
 // const googleAuth = async () => {

@@ -86,6 +86,10 @@ const postRegister = async (req, res) => {
 	}
 };
 
+const handleLocation = (location, res) => {
+	res.cookie("location", location, { expires: new Date(Date.now() + 3600000) });
+};
+
 const googleAuth = async (req, res) => {
 	// Create a single supabase client for interacting with your database
 	const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SECRET);
@@ -93,6 +97,21 @@ const googleAuth = async (req, res) => {
 	const { data, error } = await supabase.auth.signInWithOAuth({
 		provider: "google",
 	});
+
+	handleLocation(req.query.location, res);
+
+	res.redirect(data.url);
+};
+
+const githubAuth = async (req, res) => {
+	// Create a single supabase client for interacting with your database
+	const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SECRET);
+
+	const { data, error } = await supabase.auth.signInWithOAuth({
+		provider: "github",
+	});
+
+	handleLocation(req.query.location, res);
 
 	res.redirect(data.url);
 };
@@ -103,4 +122,5 @@ module.exports = {
 	postLogin,
 	postRegister,
 	googleAuth,
+	githubAuth,
 };

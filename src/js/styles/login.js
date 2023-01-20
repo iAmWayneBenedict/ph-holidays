@@ -46,3 +46,23 @@ loginForm.addEventListener("submit", async (event) => {
 
 	errorHandler.textContent = data.msg;
 });
+
+const errorMessage = document.querySelector("#error-message");
+
+const handleAuthError = () => {
+	let params = new URLSearchParams(window.location.search);
+	if (!params.get("error")) return;
+	errorMessage.parentElement.classList.remove("hidden");
+	errorMessage.parentElement.classList.add("flex");
+	errorMessage.textContent = params.get("error");
+
+	setTimeout(() => {
+		errorMessage.parentElement.style.top = "-100%";
+		errorMessage.parentElement.addEventListener("transitionend", (event) => {
+			errorMessage.parentElement.classList.add("hidden");
+			errorMessage.parentElement.classList.remove("flex");
+		});
+	}, 5000);
+};
+
+handleAuthError();

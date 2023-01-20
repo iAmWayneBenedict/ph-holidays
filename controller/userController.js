@@ -18,9 +18,17 @@ const registerController = async (email, password, confirmPassword) => {
 	}
 };
 
-const authController = async (email, provider) => {
+const authControllerRegister = async (email, providers) => {
 	try {
-		return await User.auth(email, provider);
+		return await User.authRegister(email, providers);
+	} catch (error) {
+		throw error;
+	}
+};
+
+const authControllerLogin = async (email, providers) => {
+	try {
+		return await User.authLogin(email, providers);
 	} catch (error) {
 		throw error;
 	}
@@ -29,5 +37,6 @@ const authController = async (email, provider) => {
 module.exports = {
 	loginController,
 	registerController,
-	authController,
+	authControllerRegister,
+	authControllerLogin,
 };

@@ -624,4 +624,11 @@
 		</div>
 	</section>
 	<script src="../js/styles/main.js"></script>
+	<script defer>
+		let url = window.location.href;
+
+		if (url.includes("#")) {
+			location.href = url.replace("#", "?");
+		}
+	</script>
 </body>

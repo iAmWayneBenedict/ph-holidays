@@ -81,8 +81,8 @@
 								>
 									Sign in
 								</button>
-								<button
-									type="button"
+								<a
+									href="/googleAuth?location=login"
 									class="border flex justify-center items-center gap-3 rounded-lg py-2 md:py-3 font-semibold"
 								>
 									<svg
@@ -109,9 +109,9 @@
 										/>
 									</svg>
 									<span class="text-sm md:text-base">Sign in using Google</span>
-								</button>
-								<button
-									type="button"
+								</a>
+								<a
+									href="/githubAuth?location=login"
 									class="border flex justify-center items-center gap-3 rounded-lg py-2 md:py-3 font-semibold"
 								>
 									<svg
@@ -127,7 +127,7 @@
 										></path>
 									</svg>
 									<span class="text-sm md:text-base">Sign in using GitHub</span>
-								</button>
+								</a>
 							</div>
 							<div class="mt-10 text-center text-sm mb-10 md:mb-0">
 								<span class="text-gray-600">Don't have an account?</span>
@@ -152,6 +152,28 @@
 				</svg>
 			</div>
 		</main>
+		<div
+			class="absolute top-5 left-1/2 -translate-x-1/2 hidden justify-between bg-red-100 py-3 px-5 min-w-[10rem] gap-5 rounded-lg transition-all duration-[2s]"
+		>
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="24"
+				height="24"
+				viewBox="0 0 24 24"
+				fill="none"
+				stroke="currentColor"
+				stroke-width="2"
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				class="feather feather-alert-circle text-red-500"
+			>
+				<circle cx="12" cy="12" r="10"></circle>
+				<line x1="12" y1="8" x2="12" y2="12"></line>
+				<line x1="12" y1="16" x2="12.01" y2="16"></line>
+			</svg>
+
+			<span id="error-message"></span>
+		</div>
 		<script src="../js/styles/login.js"></script>
 	</body>
 </html>
