@@ -26,8 +26,17 @@ const authControllerRegister = async (email, providers) => {
 	}
 };
 
+const authControllerLogin = async (email, providers) => {
+	try {
+		return await User.authLogin(email, providers);
+	} catch (error) {
+		throw error;
+	}
+};
+
 module.exports = {
 	loginController,
 	registerController,
 	authControllerRegister,
+	authControllerLogin,
 };

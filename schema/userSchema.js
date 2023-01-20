@@ -68,15 +68,11 @@ userSchema.statics.authRegister = async function (email, providers) {
 userSchema.statics.authLogin = async function (email, providers) {
 	let user = await this.findOne({ email });
 
-	if (!user) {
-		return this.create({
-			email,
-			password: " ",
-			providers: providers,
-		});
-	}
+	if (!user) throw Error("User not registered");
 
-	return this.findOneAndUpdate({ email }, { providers });
+	if (user.providers.join() != providers.join()) throw Error("Account not registered");
+
+	return user;
 };
 
 module.exports = userSchema;
