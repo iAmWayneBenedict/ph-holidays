@@ -54,7 +54,7 @@ const handleAuthError = () => {
 	if (!params.get("error")) return;
 	errorMessage.parentElement.classList.remove("hidden");
 	errorMessage.parentElement.classList.add("flex");
-	errorMessage.textContent = params.get("error");
+	errorMessage.textContent = params.get("error") + ". Please signup first.";
 
 	setTimeout(() => {
 		errorMessage.parentElement.style.top = "-100%";
