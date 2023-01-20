@@ -58,7 +58,7 @@ userSchema.statics.auth = async function (email, provider) {
 		return this.create({
 			email,
 			password: " ",
-			providers: [...provider],
+			providers: [provider],
 		});
 	}
 	if (!user.providers[provider]) {
