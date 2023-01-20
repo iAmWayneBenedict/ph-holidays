@@ -17,9 +17,7 @@ app.use(express.static(path.join(__dirname + "/src")));
 	try {
 		mongoose.set("strictQuery", "true");
 		await mongoose.connect(config.mongoDBURI);
-		await app.listen(config.port, config.url, () =>
-			console.log("Listening on host 127.0.0.1 port 3000")
-		);
+		await app.listen(config.port, () => console.log("Listening on host 127.0.0.1 port 3000"));
 	} catch (err) {
 		console.log(err);
 	}

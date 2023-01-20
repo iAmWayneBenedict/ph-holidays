@@ -31,15 +31,14 @@ for (let index = 0; index < codes.length; index++) {
 	});
 
 	codes[index].addEventListener("keydown", (event) => {
-		if (event.code === "Backspace" || event.code === "Delete") {
-			if (event.currentTarget.value.length === 0) {
-				codes[index].blur();
-				if (index - 1 !== -1) {
-					codes[index - 1].focus();
-					codes[index - 1].value = "";
-					return;
-				}
-			}
-		}
+		console.log(event);
+		if (event.key !== "Backspace") return;
+
+		if (event.currentTarget.value.length !== 0) return;
+
+		if (index - 1 === -1) return;
+
+		codes[index - 1].focus();
+		codes[index - 1].value = "";
 	});
 }
