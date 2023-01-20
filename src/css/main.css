@@ -29,3 +29,13 @@ body {
 .hamburger.active span:nth-child(3) {
 	transform: rotate(-40deg) translateX(0) translateY(-0.7rem);
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}

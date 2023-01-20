@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<%- include("layouts/metadata") %>
+	<body>
+		<main class="flex h-screen gap-10">
+			<div class="left px-3 sm:px-10 flex flex-col basis-full md:basis-1/2 h-full">
+				<nav class="mt-5">
+					<a href="/" class="font-bold">PH Holidays &#x1F1F5;&#x1F1ED;</a>
+				</nav>
+				<div
+					class="flex justify-center items-center w-full max-w-[30rem] mt-14 md:mt-0 mx-auto h-full"
+				>
+					<div class="w-full">
+						<div
+							class="error-handler my-5 bg-red-100 hidden justify-center py-2 rounded-lg"
+						>
+							<span class="text-red-500 font-bold"></span>
+						</div>
+
+						<form action="" id="register-form" method="POST" class="flex flex-col mt-6">
+							<div class="mb-10 w-full">
+								<div
+									class="flex w-full md:hidden justify-center pb-10 relative after:absolute after:bottom-0 after:w-full after:h-2/3 after:backdrop-blur-lg"
+								>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										class="w-20 transition-all"
+										fill="#F49D1A"
+										viewBox="0 0 448 512"
+									>
+										<path
+											d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+										/>
+									</svg>
+								</div>
+								<h1 class="text-3xl text-center md:text-left font-semibold">
+									Verify Email
+								</h1>
+							</div>
+							<p class="text-center my-16">
+								An email containing the code for email verification was sent to your
+								email
+								<span><b>iraolawayne@gmail.com</b>.</span>
+							</p>
+							<div class="code flex justify-center gap-3 sm:gap-5 md:gap-8">
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+								<input
+									type="number"
+									class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] rounded-lg border border-black text-center"
+									id=""
+								/>
+							</div>
+							<div class="buttons flex flex-col mt-16 gap-3">
+								<button
+									type="submit"
+									class="bg-[#F49D1A] text-white rounded-lg py-3 font-semibold text-sm md:text-base"
+								>
+									Verify
+								</button>
+							</div>
+							<div class="mt-10 text-center text-sm mb-10 md:mb-0">
+								<span class="text-gray-600">Already have an account?</span>
+								<a href="/login" class="text-[#d1963e] font-medium">Sign in</a>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div
+				class="right hidden md:flex bg-[#fff4e4] basis-1/2 justify-center items-center relative after:absolute after:bottom-0 after:w-full after:h-1/2 after:backdrop-blur-lg"
+			>
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					class="w-60 transition-all"
+					fill="#F49D1A"
+					viewBox="0 0 448 512"
+				>
+					<path
+						d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+					/>
+				</svg>
+			</div>
+		</main>
+		<script src="../js/styles/verification.js"></script>
+	</body>
+</html>

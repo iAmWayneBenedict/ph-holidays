@@ -116,6 +116,10 @@ const githubAuth = async (req, res) => {
 	res.redirect(data.url);
 };
 
+const verification = (req, res) => {
+	res.render("verification");
+};
+
 module.exports = {
 	register,
 	login,
@@ -123,4 +127,5 @@ module.exports = {
 	postRegister,
 	googleAuth,
 	githubAuth,
+	verification,
 };
