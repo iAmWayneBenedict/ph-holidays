@@ -2,13 +2,18 @@ const codesContainer = document.querySelector(".code");
 
 const codes = Array.from(codesContainer.children);
 
-const re = /[0-9]/g;
-
 for (let index = 0; index < codes.length; index++) {
+	codes[index].addEventListener("paste", (event) => {
+		let pasteData = event.clipboardData.getData("text");
+		for (let i = 0; i < codes.length; i++) {
+			codes[i].value = pasteData[i];
+		}
+	});
+
 	codes[index].addEventListener("input", (event) => {
 		let input = event.target.value;
 		if (event.currentTarget.value.length > 1) {
-			event.target.value = input.slice(0, -1);
+			event.target.value = input.charAt(0);
 		}
 
 		if (event.currentTarget.value.length === 1) {
@@ -19,8 +24,9 @@ for (let index = 0; index < codes.length; index++) {
 			codes[index].blur();
 		}
 
-		if (!re.test(input)) {
-			event.target.value = input.slice(0, -1);
+		const regex = /[0-9]/g;
+		if (!regex.test(input)) {
+			event.target.value = input.charAt(0);
 		}
 	});
 
