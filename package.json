@@ -6,7 +6,6 @@
 		"node": "16.x"
 	},
 	"scripts": {
-		"build:tailwindcss": "postcss ./src/css/main.css -o ./src/index.css",
 		"start": "nodemon main.js",
 		"json-server-watch": "json-server --watch json.json"
 	},
