@@ -31,7 +31,6 @@ for (let index = 0; index < codes.length; index++) {
 	});
 
 	codes[index].addEventListener("keydown", (event) => {
-		console.log(event);
 		if (event.key !== "Backspace") return;
 
 		if (event.currentTarget.value.length !== 0) return;
