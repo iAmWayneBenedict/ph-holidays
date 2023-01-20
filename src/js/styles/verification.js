@@ -6,7 +6,7 @@ for (let index = 0; index < codes.length; index++) {
 	codes[index].addEventListener("paste", (event) => {
 		let pasteData = event.clipboardData.getData("text");
 		for (let i = 0; i < codes.length; i++) {
-			codes[i].value = pasteData[i];
+			codes[i].value = pasteData[i] ? pasteData[i] : "";
 		}
 	});
 
@@ -34,6 +34,7 @@ for (let index = 0; index < codes.length; index++) {
 		if (event.code !== "Backspace") return;
 
 		if (event.currentTarget.value.length === 0) {
+			codes[index].blur();
 			if (index - 1 !== -1) {
 				codes[index - 1].focus();
 				codes[index - 1].value = "";
