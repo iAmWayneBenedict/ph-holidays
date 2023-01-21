@@ -34,9 +34,18 @@ const authControllerLogin = async (email, providers) => {
 	}
 };
 
+const verifyUser = async (_id) => {
+	try {
+		return await User.findByIdAndUpdate({ _id }, { verified: true });
+	} catch (error) {
+		throw error;
+	}
+};
+
 module.exports = {
 	loginController,
 	registerController,
 	authControllerRegister,
 	authControllerLogin,
+	verifyUser,
 };

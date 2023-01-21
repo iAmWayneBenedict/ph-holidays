@@ -35,9 +35,9 @@ userSchema.statics.signup = async function (email, password) {
 	let salt = await bcrypt.genSalt(10);
 	let hash = await bcrypt.hash(password, salt);
 
-	if (!user?.verified)
+	if (!user?.verified && user)
 		return this.findOneAndUpdate({ email }, { password: hash, verified: false });
-
+	console.log("created");
 	return this.create({ email, password: hash, verified: false });
 };
 

@@ -13,7 +13,7 @@ let transporter = nodemailer.createTransport({
 	},
 });
 
-const verifyUserEmail = async (name, email, token) => {
+const verifyUserEmail = async (email, code) => {
 	try {
 		let info = await transporter.sendMail({
 			from: process.env.MAIL_APP_EMAIL,
@@ -605,9 +605,9 @@ const verifyUserEmail = async (name, email, token) => {
                                               <div class="text-element paragraph">
                                                 <div style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 18px; line-height: 125%; font-weight: 400; text-align: left;">
             
-                                                  <p style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; line-height: 125%; font-weight: 400; text-align: center;">Hello John Doe, this is the verification code for your <b>PH Holidays</b> account. 
+                                                  <p style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; line-height: 125%; font-weight: 400; text-align: center;">Hello, this is the verification code for your <b>PH Holidays</b> account ${email}. 
                                                   </p>
-																									<center><h1 style="letter-spacing:10px">123456</h1></center>
+																									<center><h1 style="letter-spacing:10px">${code}</h1></center>
                                                   <p style="color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 19px; line-height: 125%; font-weight: 700; text-align: center; margin-top: 24px">Thank You for Signing up &#10084;
                                                   </p>
                                                 </div>
@@ -633,8 +633,10 @@ const verifyUserEmail = async (name, email, token) => {
             
             </html>`,
 		});
+
+		return info;
 	} catch (err) {
-		console.log(err);
+		throw err;
 	}
 };
 
