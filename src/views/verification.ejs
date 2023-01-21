@@ -11,13 +11,12 @@
 					class="flex justify-center items-center w-full max-w-[30rem] mt-14 md:mt-0 mx-auto h-full"
 				>
 					<div class="w-full">
-						<div
-							class="error-handler my-5 bg-red-100 hidden justify-center py-2 rounded-lg"
+						<form
+							action=""
+							id="verification-form"
+							method="POST"
+							class="flex flex-col mt-6"
 						>
-							<span class="text-red-500 font-bold"></span>
-						</div>
-
-						<form action="" id="register-form" method="POST" class="flex flex-col mt-6">
 							<div class="mb-10 w-full">
 								<div
 									class="flex w-full md:hidden justify-center pb-10 relative after:absolute after:bottom-0 after:w-full after:h-2/3 after:backdrop-blur-lg"
@@ -37,11 +36,16 @@
 									Verify Email
 								</h1>
 							</div>
-							<p class="text-center my-16">
+							<p class="text-center mb-8">
 								An email containing the code for email verification was sent to your
 								email
-								<span><b>iraolawayne@gmail.com</b>.</span>
+								<span><b> <% if(locals.email) { %> <%= email %> <% } %> </b>.</span>
 							</p>
+							<div
+								class="error-handler my-5 bg-red-100 hidden justify-center py-2 rounded-lg"
+							>
+								<span class="text-red-500 font-bold"></span>
+							</div>
 							<div class="code flex justify-center gap-3 sm:gap-5 md:gap-8">
 								<input
 									type="number"
@@ -74,10 +78,17 @@
 									id=""
 								/>
 							</div>
-							<div class="buttons flex flex-col mt-16 gap-3">
+							<div class="buttons flex flex-col items-center mt-16 gap-3">
+								<a
+									href=""
+									id="resend-btn"
+									class="text-sm underline underline-offset-4 italic mb-3"
+								>
+									Resend Code <span>(<span id="counter">0</span>)</span>
+								</a>
 								<button
 									type="submit"
-									class="bg-[#F49D1A] text-white rounded-lg py-3 font-semibold text-sm md:text-base"
+									class="bg-[#F49D1A] text-white rounded-lg py-3 font-semibold text-sm md:text-base w-full"
 								>
 									Verify
 								</button>

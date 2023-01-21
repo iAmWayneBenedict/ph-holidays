@@ -40,6 +40,8 @@ registerForm.addEventListener("submit", async (event) => {
 	}
 
 	errorHandler.textContent = data.msg;
+
+	if (data.redirect) location.href = data.redirect;
 });
 
 // const googleAuthBtn = document.querySelector("#googleAuth");

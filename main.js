@@ -5,7 +5,6 @@ const axios = require("axios");
 const fs = require("fs");
 const route = require("./routes/route");
 const session = require("express-session");
-const cryptoJS = require("crypto-js");
 const config = require("./config");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");

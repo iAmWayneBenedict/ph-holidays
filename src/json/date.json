@@ -1,1 +1,1632 @@
-[{"date":"1-1","en_name":"New Year's Day","fil_name":"Araw ng Bagong Taon","trans":"Fixed","type":"Regular Holiday","description":"Celebrates the first day of the year in Gregorian calendar.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-22","en_name":"Chinese New Year","fil_name":"Bagong Taon ng mga Tsino","trans":"Movable","type":"Special Holiday","description":"Also known as the Spring Festival or Lunar New Year.","rule":{"inMonth":"","inYear":"+1"}},{"date":"2-25","en_name":"EDSA Revolution Anniversary","fil_name":"Anibersaryo ng Rebolusyon sa EDSA","trans":"Fixed","type":"Special Holiday","description":"Anniversary of the end of the 1986 People Power Revolution.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-6","en_name":"Maundy Thursday","fil_name":"Huwebes Santo","trans":"Movable","type":"Regular Holiday","description":"Part of the Triduum of Holy Week and includes the Mass of the Lord's Supper (the Last Supper).","rule":{"inMonth":"","inYear":"+1"}},{"date":"4-7","en_name":"Good Friday","fil_name":"Biyernes Santo","trans":"Movable","type":"Regular Holiday","description":"Commemorates the suffering, crucifixion and death of Jesus Christ. Processions, passion plays, the recitation of the Pasyon, and various religious services are among the customs practiced on this day.","rule":{"inMonth":"","inYear":"+1"}},{"date":"4-8","en_name":"Black Saturday","fil_name":"Sabado de Gloria","trans":"Movable","type":"Special Holiday","description":"Part of the Easter Triduum and Holy Week. Commemorates Christ's Descent into Hell as his body lay in the Holy Sepulchre.","rule":{"inMonth":"","inYear":"+1"}},{"date":"4-9","en_name":"Day of Valor","fil_name":"Araw ng Kagitingan","trans":"Fixed","type":"Regular Holiday","description":"Commemorates the Fall of Bataan during the Japanese invasion of the Philippines, and by extension, the courage of Filipino and American soldiers throughout the Second World War.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-1","en_name":"Labor Day","fil_name":"Araw ng Paggawa","trans":"Fixed","type":"Regular Holiday","description":"Anniversary of the May 1, 1903 rally by the Unión Obrera Democrática Filipina. Held in conjunction with the International Workers' Day.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-22","en_name":"Eid'l Fitr","fil_name":"Eidul Fitr / Araw ng Ramadan","trans":"Movable","type":"Regular Holiday","description":"Feast at the end of Ramadan","rule":{"inMonth":"","inYear":"+1"}},{"date":"6-12","en_name":"Independence Day","fil_name":"Araw ng Kalayaan","trans":"Fixed","type":"Regular Holiday","description":"Anniversary of the proclamation of the Philippine Declaration of Independence on June 12, 1898. From 1947 to 1964, Independence Day was celebrated on July 4 (see below).","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-29","en_name":"Eid'l Adha","fil_name":"Eidul Adha / Araw ng Kurban","trans":"Movable","type":"Regular Holiday","description":"Feast at the end of the Hajj when Muslims sacrifice a goat, sheep, cow or a camel to be sent to the poor as a donation. The Hajj is when Muslims go on required pilgrimage to Mecca.","rule":{"inMonth":"","inYear":"+1"}},{"date":"8-21","en_name":"Ninoy Aquino Day","fil_name":"Araw ng Kabayanihan ni Ninoy Aquino","trans":"Fixed","type":"Special Holiday","description":"Anniversary of Assassination of Benigno Aquino, Jr. in 1983.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-29","en_name":"National Heroes Day","fil_name":"Araw ng mga Bayani","trans":"Movable","type":"Regular Holiday","description":"Anniversary of the 1896 Cry of Pugad Lawin by the Katipunan which began the Philippine Revolution and commemorates all the nation's heroes. Held every last Monday of August. Usually, it's the last holiday before the long celebration of the Christmas season which begins on September 1, and since 2020, the last holiday before most educational institutions begin their academic year.","rule":{"inMonth":"","inYear":"+0"}},{"date":"11-1","en_name":"All Saints' Day","fil_name":"Undás; Todos los Santos; Araw ng mga Santo","trans":"Fixed","type":"Special Holiday","description":"Filipinos observe this day by visiting family graves, repairing and cleaning tombs, and offering prayers, flowers, food, and candles. Many return to their native provinces for this, making it an occasion for reunions with extended family.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-2","en_name":"All Souls Day","fil_name":"Araw ng mga Kaluluwa","trans":"Fixed","type":"Special working Holiday","description":"None","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-30","en_name":"Bonifacio Day","fil_name":"Araw ng Kapanganakan ni Andrés Bonifacio","trans":"Fixed","type":"Regular Holiday","description":"Birth anniversary of Andrés Bonifacio, de facto national hero. Bonifacio is remembered on his birthday, rather than the date of his death (May 10, 1897), because he was executed by the Filipino revolutionary government and not by colonial powers. Often confused with National Heroes' Day.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-8","en_name":"Feast of the Immaculate Conception of the Blessed Virgin Mary","fil_name":"Kapistahan ng Kalinís-linisang Paglilihî ng Mahál na Birheng María","trans":"Fixed","type":"Special Holiday","description":"Catholic solemnity marking the pure and sinless conception of the Blessed Virgin Mary, honored as mother and Principal Patroness of the Philippines since 1942.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-24","en_name":"Christmas Eve","fil_name":"Bisperas ng Pasko","trans":"Fixed","type":"Special working Holiday","description":"Marks the eve of Christmas. Filipinos generally hold the Nochebuena meal at midnight.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-25","en_name":"Christmas Day","fil_name":"Araw ng Pasko","trans":"Fixed","type":"Regular Holiday","description":"Birth anniversary of Jesus Christ, main figure of Christianity.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-30","en_name":"Rizal Day","fil_name":"Paggunita sa Kamatayan ni Dr. Jose Rizal","trans":"Fixed","type":"Regular Holiday","description":"Death anniversary of the Execution of Jose Rizal, considered by mainstream Filipinos as the de facto national hero.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-31","en_name":"New Year's Eve","fil_name":"Bisperas ng Bagong Taon (Last Day of the Year)","trans":"Fixed","type":"Special working Holiday","description":"This holiday, which marks the conclusion of the civil year, is between two regular holidays, Rizal Day, and New Year's Day. This holiday is a special non-working day every December 31.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-23","en_name":"First Philippine Republic Day","fil_name":"Araw ng Unang Republika ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the establishment of the First Philippine Republic on January 23, 1899, at the Barasoain Church in Malolos, Bulacan.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-25","en_name":"Day of National Remembrance","fil_name":"Araw ng Pambansang Pag-alala","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2018. Celebrates the heroism of the 44 Special Action Force (SAF) troopers who were killed in an encounter in Mamasapano, Maguindanao on January 25, 2015.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-29","en_name":"National Police Anniversary Day","fil_name":"Araw ng Pagkakatatag ng Pambansang Pulisya","trans":"Fixed","type":"Working Holiday","description":"A working holiday celebrated since 1992 marking the 1991 formation of the Philippine National Police and honoring the service of the thousands of men and women in the law enforcement profession. The PNP was formally raised in 1991 as a result of the enactment of Republic Act No. 6975, which created the service on the basis of both the Philippine Constabulary and the Integrated National Police.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-2","en_name":"Constitution Day","fil_name":"Araw ng Saligang Batas","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2002. Celebrates the ratification of the current 1987 Constitution.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-4","en_name":"Philippine–American War Memorial Day","fil_name":"Araw ng Paggunita sa Digmaang Pilipino–Amerikano","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2020. Honoring the millions of Filipinos who fought and died as a result of the war against the occupation forces of the United States that began on February 4, 1899, and ended in 1902.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-8","en_name":"National Women's Day","fil_name":"Pambansang Araw ng Kababaihan","trans":"Fixed","type":"Working Holiday","description":"A working holiday that celebrates the social, economic, cultural and political achievements of women, celebrated in conjuction with International Women's Day.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-23","en_name":"Philippine Army Day and anniversary of the Tejeros Convention","fil_name":"Araw ng Hukbong Katihan ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"A working holiday that celebrates the 1897 foundation of the Philippine Army as a result of the decisions made in the historic Tejeros Convention. Also marks the birthday of Emilio Aguinaldo, the founding president of the Philippines.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-27","en_name":"Lapu-Lapu Day","fil_name":"Araw ni Lapu-Lapu","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the victory of Lapu-Lapu and his men over the Spaniards, led by Ferdinand Magellan, during the Battle of Mactan on April 27, 1521.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-20","en_name":"Philippine Navy Day","fil_name":"Araw ng Hukbong Dagat ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"A working holiday that celebrates the 1898 foundation of the Philippine Navy.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-28","en_name":"Flag Day","fil_name":"Araw ng Pambansang Watawat","trans":"Fixed","type":"Working Holiday","description":"Celebration of the patriotic victory in the 1898 Battle of Alapan, the first time the national flag was unfurled in public. Independence Day celebrations begin on this day, lasting until June 12.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"José Rizal's birthday","fil_name":"Araw ng Kapanganakan ni José Rizal","trans":"Fixed","type":"Working Holiday","description":"First declared in 1961 by President Carlos P. García in honor of the birth centenary of José Rizal. Monday, June 20, 2011, was declared a special non-working holiday by President Benigno Aquino III for Rizal's 150th birth anniversary as requested by the National Historical Commission of the Philippines. On November 9, 2018, President Rodrigo Duterte signs Republic Act No. 11144, that declaring June 19, as a special non working holiday in Laguna every year.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-30","en_name":"Spanish-Filipino Friendship Day","fil_name":"Araw ng Pagkakaibigang Pilipino-Espanyol","trans":"Fixed","type":"Working Holiday","description":"Honors both the 30 Spanish soldiers who surrendered in the Siege of Baler of 1898–99, considered the \"last ones of the Philippines\" (Los últimos de Filipinas), and the cultural, religious and social ties of Spain and the Philippines and their peoples","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-1","en_name":"Philippine Air Force Day","fil_name":"Araw ng Hukbong Himpapawid ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"A working holiday that celebrates the enactment of Executive Order No. 94 in 1947 that caused the formation of the Philippine Air Force as a separate service branch of the Armed Forces, on the basis of the former Philippine Army Air Corps of the Army.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-4","en_name":"Republic DayPhilippine-American Friendship Day","fil_name":"Araw ng RepublikaAraw ng Pagkakaibigang Pilipino-Amerikano","trans":"Fixed","type":"Working Holiday","description":"Former national non-working holiday and today a working and cultural holiday celebrating the 1946 Treaty of Manila that restored Philippine independence thru recognition by the United States, and also celebrating the historical, economic, cultural, political, religious and social ties between the Philippines and the United States and the peoples of these two nations.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-25","en_name":"National Campus Press Freedom Day","fil_name":"Pambansang Araw ng Malayang Pamamahayag sa Kampus","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2020. This holiday aims to promote, protect, and safeguard the constitutionally guaranteed right to freedom of expression, speech and of the press in the Philippines especially in school campuses.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-27","en_name":"Iglesia ni Cristo Day","fil_name":"Araw ng Iglesia ni Cristo","trans":"Fixed","type":"Working Holiday","description":"In 2009, July 27 was designated by a Republic Act as a yearly special national working holiday to honor the foundation of the Iglesia ni Cristo in 1914. This day was declared as a special non-working day in the year 2014 to commemorate the church's 100th Anniversary.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-12","en_name":"National Police Service Day and anniversary of the formation of the Philippine Constabulary","fil_name":"Araw ng Pambansang Serbisyong Pangpulisya","trans":"Fixed","type":"Working Holiday","description":"A working holiday celebrating all the men and women of the Philippine National Police and all its predecessor services in appreciation and gratitude for service to the community. This also marks the anniversary of the 1901 formation of the Philippine Constabulary under future United States president and Governor-General of the Philippines William Howard Taft.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-18","en_name":"Jesse Robredo Day","fil_name":"Araw ni Jesse Robredo","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2016. Celebrates the internationally recognized former mayor of Naga City Jesse Robredo who died while serving as Aquino's local government secretary on August 18, 2012.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-25","en_name":"National Tech-Voc Day","fil_name":"Pambansang Araw ng Teknolohikal-Bokasyonal","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2018. This holiday aims to promote technical and vocational education and training in the Philippines.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-30","en_name":"National Press Freedom Day","fil_name":"Pambansang Araw ng Kalayaan sa Pamamahayag","trans":"Fixed","type":"Working Holiday","description":"A working holiday which will be first observed in 2022. This holiday aims to promote, protect, and safeguard the constitutionally guaranteed right to freedom of expression, speech and of the press in the Philippines and also in honor of Marcelo H. del Pilar, father of Philippine journalism.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-1","en_name":"Official first day and beginning of the Philippine Christmas season","fil_name":"Unang araw at pagsismula ng panahon ng Kapaskuhan sa Pilipinas","trans":"Fixed","type":"Working Holiday","description":"Working and cultural holiday that officially marks the beginning of the Philippine Christmas season, the longest holiday season in the world. Since the late 1980s, the 1st day of September is generally marked as the day that the Christmas season officially begins in the country, for on this day radio stations finally transition to playing Christmas music and shopping malls begin playing holiday themed music as well.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-3","en_name":"Surrender of General Tomoyuki Yamashita Day(Victory over Japan Day)","fil_name":"Araw ng Pagsuko ni Heneral Tomoyuki YamashitaAraw ng Tagumpay laban sa Hapon","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the surrender of Japanese Army General Tomoyuki Yamashita in Baguio at the conclusion of hostilities of the Second World War on September 3, 1945.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-8","en_name":"Feast of the Nativity of the Blessed Virgin Mary","fil_name":"Pagdiriwang ng Kapanganakan ng Mahal na Birheng Maria","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the birth of the Blessed Virgin Mary. It is instituted by virtue of Republic Act No. 11370.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-21","en_name":"Anniversary of the formal declaration of Martial law in the Philippines","fil_name":"Anibersaryo ng pagsisimula ng Batas Militar sa Republika ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2017, marking the day in 1972 when Martial Law was proclaimed nationwide. Normally it is also a school holiday in some years as there are no classes in several cities. Remembrance ceremonies are held to honor the thousands who perished in one of the darkest chapters in Philippine history, while student rallies are held in memory of the student leaders involved in pro-democracy actions during this period.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-17","en_name":"Philippine Coast Guard Day","fil_name":"Araw ng Tanod Baybabin ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"Working holiday marking the 1901 establishment of the Philippine Coast Guard, one of the oldest coast guard organizations in Southeast Asia.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-17","en_name":"National Students' Day","fil_name":"Pambansang Araw ng mga Mag-aaral","trans":"Fixed","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the recognition and contribution of student activism to Philippine democracy.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-20","en_name":"National Children's Day","fil_name":"Pambansang Araw ng mga Bata","trans":"Fixed","type":"Working Holiday","description":"A working holiday celebrating the rights and importance of every Filipino child as the core of the nation's future, as well as the 1989 adoption by the United Nations General Assembly of the Convention on the Rights of the Child.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-10","en_name":"Human Rights Day","fil_name":"Araw ng Karapatang Pantao","trans":"Fixed","type":"Working Holiday","description":"A working holiday that celebrates the adoption of the Universal Declaration of Human Rights (UDHR) by the United Nations General Assembly on December 10, 1948.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-21","en_name":"Armed Forces Day","fil_name":"Araw ng Hukbong Sandatahang Lakas ng Pilipinas","trans":"Fixed","type":"Working Holiday","description":"Working holiday marking the official formation in 1935 of the Armed Forces of the Philippines.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-","en_name":"National Bible Day","fil_name":"Pambansang Araw ng Bibliya","trans":"Movable","type":"Working Holiday","description":"A working holiday which was first observed in 2019. Celebrates the value of the Holy Bible as the core of the country's Christian faith professed by millions of its people, held on the Monday following the final Sunday of January which serves as the conclusion of the week-long celebrations of National Bible Week organized by the country's Christian faiths.","rule":{"inMonth":"1, -1","inYear":"-1"}},{"date":"2-5","en_name":"Lantern Festival","fil_name":"Piyesta ng mga Parol Tsino, Piyestang Yuanxiao","trans":"Movable","type":"Working Holiday","description":"Working holiday among the Filipino Chinese which marks the conclusion of the Chinese New Year festivities 15 days after.","rule":{"inMonth":"","inYear":"+1"}},null,{"date":"9-10","en_name":"Mid-Autumn Festival (Mooncake Festival)","fil_name":"Pista ng Gitnang Taglagas, Pistang Tiong Chiu","trans":"Movable","type":"Working Holiday","description":"Working holiday by the Filipino Chinese community to celebrate the fall harvest, also a cultural observance by many Filipinos and part of the opening salvo of the long Christmas season which begins in the time period in which this festival falls (either in September or October), usually the festival period marks the time when the first Christmas sales are held in shopping malls.","rule":{"inMonth":"","inYear":"+0"}},{"date":"2-18","en_name":"Isra and Mi'raj","fil_name":"Gabi ng Isra at Mi'raj","trans":"Movable","type":"Working Holiday","description":"Working holiday by Filipino Muslims in commemoration of the journey at night by the Prophet Muhammad, marked on the 27th day of the Islamic month of Rajab.","rule":{"inMonth":"","inYear":"+1"}},{"date":"3-19","en_name":"Mid-Sha'ban","fil_name":"Gabi ng Niṣf Sha‘bān","trans":"Movable","type":"Working Holiday","description":"Working and cultural holiday by Filipino Muslims marked on the 14th day of the Islamic month of Sha'ban. Celebrated mostly by expat Muslims from Middle Eastern countries that observe the holiday.","rule":{"inMonth":"","inYear":"+0"}},{"date":"7-18","en_name":"First of Muharram (Islamic New Year)","fil_name":"Unang Araw ng Muharram,Bagong Taong Islamiko","trans":"Movable","type":"Working Holiday","description":"Working holiday by Filipino Muslims to mark the beginning of the Islamic year.","rule":{"inMonth":"","inYear":"+1"}},{"date":"9-27","en_name":"Prophet Muhammad's Birthday/Milad un Nabi","fil_name":"Araw ng Kapanganakan ni Propetang Muhammad, Pistang Mawlid","trans":"Movable","type":"Working Holiday","description":"Known elsewhere as Mawlid, the day marks the birth of the Prophet Muhammad on the 12th day of Rabi' al-awwal, the third month of the Islamic calendar.","rule":{"inMonth":"","inYear":"+1"}},{"date":"11-23","en_name":"Thanksgiving Day","fil_name":"Araw ng Pasasalamat","trans":"Movable","type":"Working Holiday","description":"Formerly a national holiday until 1971 (held from 1973 to 1985 on September 21, the anniversary of the beginning of Martial Law), currently marked as a commercial and cultural working holiday. Mainly celebrated by the Filipino-American community and American expats, and now increasingly being revived, this day is a day of giving thanks and sacrifice for the blessing of the harvest and of the preceding year. Unlike in the United States and its overseas territories, wherein this day marks the start of the Christmas season, it is held in the Philippines as part of the long Christmas season. Held every final Thursday of November.","rule":{"inMonth":"","inYear":"+1"}},{"date":"11-24","en_name":"Black Friday","fil_name":"Itim na Biyernes","trans":"Movable","type":"Working Holiday","description":"Informally the term for the Friday following Thanksgiving that among Filipino Americans marks the official start of the Christmas shopping season, marked mostly as a shopping holiday by the retail sector and online shopping websites. Unlike in the United States, the country observes it as a working holiday that serves as part of the Christmas season, and the days following it are where a large variety of holiday-themed events are held by schools, colleges, universities, all private and public sector companies and all local governments. In the 21st century, the practice of holiday sales on this day began as part of the final salvo of Christmas sales in shopping malls, and the term itself began to be adopted in the late 2010s by both US-based retail brands and local department stores.","rule":{"inMonth":"","inYear":"+1"}},{"date":"1-11","en_name":"Bataan Foundation Day","fil_name":"Araw ng Pagkakatatag ng Bataan","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Bataan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-12","en_name":"Valencia City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Valencia","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Valencia, Bukidnon only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-16","en_name":"Navotas Day","fil_name":"Araw ng Navotas","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Navotas only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-17","en_name":"James Leonard Tagle Gordon Day","fil_name":"Araw ng Kapanangakan ni James Leonard Tagle Gordon","trans":"","type":"Locally Observed Holiday","description":"Celebrated only in Olongapo and the Subic Bay Freeport Zone, this holiday reflects on the achievements, contributions and heroism of the late politician and city mayor.","rule":{"inMonth":"","inYear":"-1"}},{"date":"1-","en_name":"Sinulog","fil_name":"Sinulog","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to the province of Cebu and Tacloban only, honors the Santo Niño.","rule":{"inMonth":"0, 3","inYear":"-1"}},{"date":"1-","en_name":"Sinulog Rest Day","fil_name":"Sinulog Rest Day","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to the province of Cebu, Cebu City, Mandaue City, Lapu-Lapu City and other provinces and cities who joined in the year's Sinulog Festival in Cebu.","rule":{"inMonth":"0, 3, +1","inYear":"-1"}},{"date":"1-22","en_name":"Vigan Cityhood Day","fil_name":"Araw ng Pagkalungsod ng Vigan","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to the city of Vigan. It happens three days before the city's fiesta.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-3","en_name":"Blas Ople Birth Anniversary","fil_name":"Pagdiriwang ng Kapanangakan ni Blas Ople","trans":"","type":"Locally Observed Holiday","description":"This is only celebrated in the province of Bulacan. Celebrates the birth of Blas Ople, statesman and former senator.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-3","en_name":"Cabanatuan City Day","fil_name":"Araw ng Cabanatuan","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to the city of Cabanatuan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-5","en_name":"Biñan Liberation Day","fil_name":"Araw ng Liberasyon ng Biñan","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to the city of Biñan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-9","en_name":"Mandaluyong Liberation and Cityhood Day","fil_name":"Araw ng Liberasyon at Pagkalungsod ng Mandaluyong","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Mandaluyong only, honoring the 1945 liberation of Mandaluyong and its 1995 elevation to cityhood.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-11","en_name":"Evelio Javier Day","fil_name":"Araw ni Evelio Javier","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the provinces of Antique, Capiz, Aklan, and Iloilo only, in remembrance of the 1986 murder of the popular Governor of Antique whose death was one of the causes of the 1986 People Power Revolution.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-13","en_name":"Parañaque Day","fil_name":"Araw ng Parañaque","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Parañaque only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-14","en_name":"Valenzuela City Day","fil_name":"Araw ng Lungsod ng Valenzuela","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Valenzuela only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-24","en_name":"Cebu City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Cebu","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Cebu City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-26","en_name":"Día de Zamboanga (Zamboanga Day)","fil_name":"Araw ng Zamboanga","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies only to Zamboanga City only as celebration of the anniversary of the inauguration of Zamboanga as a city, even its Charter was signed on October 12 which is also a holiday in celebration of the Feast of Nuestra Señora del Pilar, the city's patron saint.","rule":{"inMonth":"","inYear":"-1"}},{"date":"2-21,27","en_name":"Musikahan Festival","fil_name":"Musikahan Festival","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Tagum only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-1","en_name":"Muntinlupa City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Muntinlupa","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Muntinlupa only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-2","en_name":"La Union Day","fil_name":"Araw ng Pribilehiyo ng Lalawigan ng La Union","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to La Union only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-2","en_name":"Cavite Day","fil_name":"Araw ng Kabite","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies only in province of Cavite.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-7","en_name":"Tagum City Day","fil_name":"Araw ng Tagum","trans":"","type":"Locally Observed Holiday","description":"Commemorating the elevation of then Tagum municipality into the first component city of Davao del Norte. This regular holiday applies to Tagum only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-8","en_name":"Davao de Oro Foundation Day","fil_name":"Araw ng Davao de Oro","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Davao de Oro province only, celebrating the foundation of the province in 1998.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-16","en_name":"Davao City Day","fil_name":"Araw ng Dabaw","trans":"","type":"Locally Observed Holiday","description":"Commemorating the signing of the Davao Charter, creating the city of Davao. This special non-working holiday applies to Davao City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-18","en_name":"Panay Liberation Day","fil_name":"Araw ng Liberasyon ng Panay","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to all provinces and cities on the islands of Guimaras, Panay and Romblon marking the 1945 liberation of these provinces by joint Filipino and American forces.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-19","en_name":"Sulyog Festival","fil_name":"Feast of St. Joseph","trans":"","type":"Locally Observed Holiday","description":"This day commemorates Saint Joseph, husband of the Blessed Virgin Mary, the patron saint of the town of Bongabong, Oriental Mindoro. This special non-working holiday applies to Bongabong, Oriental Mindoro only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-21","en_name":"San Fabian Day","fil_name":"Araw ng San Fabian","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to San Fabian, Pangasinan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-21","en_name":"Calapan City Foundation Day","fil_name":"Araw ng Pagkakatatag ng Syudad ng Calapan","trans":"","type":"Locally Observed Holiday","description":"This day commemorates the cityhood of Calapan, Oriental Mindoro in 1998. This special non-working holiday applies to city of Calapan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-22","en_name":"Malaybalay City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Malaybalay","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Malaybalay only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-22","en_name":"Emilio Aguinaldo Day","fil_name":"Kaarawan ni Emilio Aguinaldo","trans":"","type":"Locally Observed Holiday","description":"A holiday which was observed in 2019. Celebrates the birth anniversary of a Filipino revolutionary during the Philippine Revolution and the President of the Philippine Republic Emilio Aguinaldo.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-25","en_name":"Cry of Candon","fil_name":"Sigaw ng Candon / Ikkis ti Candon","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Candon only. March 25 commemorates the \"Cry of Candon\" in the city of Candon, Ilocos Sur, when local heroes led by Don Isabelo Abaya declared the Republica de Filipinas Katipunan de Candon. In honor of the men and women who sacrificed their lives for freedom, March 25 of every year is hereby declared a special nonworking holiday in the city of Candon.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-27","en_name":"San Juan Day","fil_name":"Araw ng San Juan","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to San Juan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"3-31","en_name":"First Mass Day","fil_name":"Araw ng Unang Misa","trans":"","type":"Locally Observed Holiday","description":"This special working holiday only in province of Southern Leyte. In commemoration of the first mass held in Limawasa Island which was officiated on Easter Sunday of March 31, 1521 by Father Pedro de Valderrama under the fleet of Ferdinand Magellan.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-3","en_name":"Albay Day","fil_name":"Araw ng Albay","trans":"","type":"Locally Observed Holiday","description":"This special working holiday only in province of Albay. In commemoration of its founding anniversary.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-5","en_name":"Pangasinan Day","fil_name":"Araw ng Pangasinan","trans":"","type":"Locally Observed Holiday","description":"This special working holiday only in province of Pangasinan. In commemoration of its founding anniversary.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-21","en_name":"Calamba City Day","fil_name":"Araw ng Calamba","trans":"","type":"Locally Observed Holiday","description":"Commemorating the signing of the Calamba Charter, creating the city of Calamba. This special non-working holiday applies to Calamba only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"4-21","en_name":"Orani Foundation Day","fil_name":"Araw ng Pagkakatatag ng Orani","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Orani only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-3","en_name":"Sampaguita Festival","fil_name":"Pista ng Sampaguita","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to San Pedro only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-3","en_name":"Sta. Cruz Day","fil_name":"Araw ng Sta. Cruz","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Sta. Cruz only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-4","en_name":"Ilagan Day","fil_name":"Aggaw na Ilagan","trans":"","type":"Locally Observed Holiday","description":"Celebrating the foundation of Ilagan (as municipality). This special non-working holiday applies to Ilagan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-21","en_name":"Malabon Day","fil_name":"Araw ng Malabon","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Malabon only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-24","en_name":"Nueva Vizcaya Day","fil_name":"Ammungan Festival","trans":"","type":"Locally Observed Holiday","description":"The province's foundation day. This special non-working holiday applies to Nueva Vizcaya only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"5-27","en_name":"San Josee Parish Fiesta","fil_name":"Fiesta ni Señor San José","trans":"","type":"Locally Observed Holiday","description":"Special non-working holiday in honor of Saint Joseph which only applies to Matalom, Leyte.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-1","en_name":"Biray Festival","fil_name":"Pistang Biray / Araw ng Imahen ng Birheng Maria","trans":"","type":"Locally Observed Holiday","description":"Honors the Blessed Virgin Mary as part of the Flores de Mayo in Belison, Antique. This special non-working holiday applies to Belison, Antique only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-11","en_name":"Rizal Province Day","fil_name":"Araw ng Rizal","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Rizal province only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-11","en_name":"Sagay Day","fil_name":"Araw ng Sagay","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Sagay, Negros Occidental only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-15","en_name":"Cagayán de Oro Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Cagayan de Oro","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Cagayan de Oro only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-15","en_name":"Opol Day","fil_name":"Araw ng Opol","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Opol only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-16","en_name":"Baybay City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Baybay","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Baybay City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-16","en_name":"Iligan City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Iligan","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Iligan City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-18","en_name":"Naga City Charter Anniversary","fil_name":"Anibersaryo ng Pribilehiyo ng Lungsod ng Naga","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Naga, Camarines Sur only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-18","en_name":"Benguet Foundation Day","fil_name":"Araw ng Pagkakatatag ng Benguet","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Benguet only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-18","en_name":"Bacolod City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Bacolod","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Bacolod City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"Surigao del Sur Day","fil_name":"Araw ng Surigao del Sur","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Surigao del Sur only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"Surigao del Norte Day","fil_name":"Araw ng Surigao del Norte","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Surigao del Norte only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"Feast of the Forest","fil_name":"Pista ng Kagubatan","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Palawan only celebrating the importance of forests in the province.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"Laguna Day","fil_name":"Araw ng Laguna","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Laguna only. This also commemorates Dr. José Rizal's birthday.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-19","en_name":"Calambanga Festival","fil_name":"Araw ng Calamba","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Calamba only. This also commemorates Dr. José Rizal's birthday and a review of the history of Calamba.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-21","en_name":"Naliyagan Festival","fil_name":"Pistang Naliyagan","trans":"","type":"Locally Observed Holiday","description":"Special non-working holiday, applies to Agusan del Sur only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-23","en_name":"Bacoor Cityhood Day","fil_name":"Araw ng Pagkalungsod ng Bacoor","trans":"","type":"Locally Observed Holiday","description":"This day commemorates the cityhood of Bacoor in the province of Cavite on June 23, 2012. This special non-working holiday applies to Bacoor only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-24","en_name":"Manila Day","fil_name":"Araw ng Maynila","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the City of Manila only. It honors the 1571 founding of the city by Miguel López de Legaspi.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-24","en_name":"Wattah Wattah Festival","fil_name":"Pista ng San Juan","trans":"","type":"Locally Observed Holiday","description":"This special holiday applies to San Juan only. This day honor Saint John the Baptist, the patron saint of the city. Also known as the Feast of Saint John San Juan Festival.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-26","en_name":"Batanes Day","fil_name":"Araw ng Batanes","trans":"","type":"Locally Observed Holiday","description":"This special holiday applies to the province of Batanes only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-30","en_name":"Tacloban Day and Tacloban City Charter Day","fil_name":"Araw ng Tacloban","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the city of Tacloban only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"6-30","en_name":"Imus Cityhood Day","fil_name":"Araw ng Pagkalungsod ng Imus","trans":"","type":"Locally Observed Holiday","description":"This day commemorates the cityhood of Imus in the province of Cavite on June 30, 2012. This special non-working holiday applies to Imus only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-1","en_name":"Tagbilaran City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Tagbilaran","trans":"","type":"Locally Observed Holiday","description":"A day commemorating the creation of the city of Tagbilaran by virtue of Republic Act No. 4660 on July 1, 1966. This special non-working holiday applies only to Tagbilaran.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-1","en_name":"Davao Region Day","fil_name":"Araw ng Rehiyon ng Davao","trans":"","type":"Locally Observed Holiday","description":"Day commemorating the creation of the three Davao provinces from then a \"single\" Davao province, now Davao Region. This regular public holiday applies to the provinces of Davao del Norte, Davao del Sur and Davao Oriental only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-1","en_name":"Maramag Day","fil_name":"Araw ng Maramag","trans":"","type":"Locally Observed Holiday","description":"Day commemorating the recognition of Maramag, Bukidnon as a municipality by virtue of Executive Order 272, which was signed by President Carlos P. Garcia on July 1, 1956. This special non-working holiday applies only to the municipality of Maramag.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-1","en_name":"Alubijid Day","fil_name":"Araw ng Alubijid","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Alubijid only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-2","en_name":"Pasig Foundation day","fil_name":"Araw ng Pasig","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Pasig only. Remembers the founding of the city in 1573.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-22","en_name":"Bohol Day","fil_name":"Araw ng Bohol","trans":"","type":"Locally Observed Holiday","description":"A day commemorating the creation of the province of Bohol by virtue of Act No. 2711 on March 10, 1917, and the anniversary of the 1565 Blood Compact. This special non-working holiday applies only to the whole province of Bohol.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-22","en_name":"Claveria Day","fil_name":"Araw ng Claveria","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Claveria, Misamis Oriental in commemoration to its founding.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-23","en_name":"Apolinario Mabini Day","fil_name":"Kaarawan ni Apolinario Mabini","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Tanauan only, the city is the hometown of Apolinario Mabini, the prime minister of the First Philippine Republic.","rule":{"inMonth":"","inYear":"-1"}},{"date":"7-23","en_name":"Batangas City Day","fil_name":"Batangas City Foundation Day","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Batangas City in commemoration to its founding.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-2","en_name":"Butuan City Charter Day","fil_name":"Adlaw Hong Butuan","trans":"","type":"Locally Observed Holiday","description":"This holiday applies to Butuan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-2","en_name":"Kabankalan City Charter Day","fil_name":"Adlaw Kabankalan","trans":"","type":"Locally Observed Holiday","description":"This holiday applies to Kabankalan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-4","en_name":" Cabuyao Cityhood Day","fil_name":"Araw ng Pagkalungsod ng Cabuyao","trans":"","type":"Locally Observed Holiday","description":"This day commemorates the cityhood of Cabuyao in 2012. This special non-working holiday applies to city of Cabuyao only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-6","en_name":"Cebu Provincial Charter Day","fil_name":"Araw ng Panlalawigang Pribilehiyo ng Cebu","trans":"","type":"Locally Observed Holiday","description":"This special nonworking holiday applies to the province of Cebu only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-9","en_name":"Ablan Day","fil_name":"Kaarawan ni Ablan","trans":"","type":"Locally Observed Holiday","description":"Commemorates the birthday of Ilocos Norte's late governor and labor leader, Governor Roque B. Ablan, Sr.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-15","en_name":"Kadayawan Festival","fil_name":"Davao Harvest Festival","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Davao City only. (Proc. No. 829 declared that August 15 is a special non-working holiday)","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-15","en_name":"Bulacan Foundation Day","fil_name":"Araw ng Bulacan","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Bulacan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-19","en_name":"Manuel Luis Quezón Day","fil_name":"Kaarawan ni Manuel Luis Quezón","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to the provinces of Quezon and Aurora, and to Quezon City only in honor of the anniversary of the birth of the Commonwealth President Manuel L. Quezon, born on this day in 1878.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-20","en_name":"Lucena City Charter Day","fil_name":"Araw ng Lungsod ng Lucena","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Lucena only by virtue of Republic Act No. 3271 – An Act Creating the city of Lucena, approved on June 17, 1961.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-25","en_name":"Iloilo City Charter Day","fil_name":"Araw ng Lungsod ng Iloilo","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Iloilo City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-28","en_name":"Higalaay Festival","fil_name":"Adlaw sa Pag-Higalaay sa Dakbayan sa Cagayan de Oro","trans":"","type":"Locally Observed Holiday","description":"Non-working holiday in Cagayan de Oro.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-30","en_name":"Pinaglabanan Day","fil_name":"Araw ng Pinaglabanan","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to San Juan only, often in celebration of the 1896 Battle of Pinaglabanan, the first major battle of the Philippine Revolution and the first major defeat for revolutionary forces.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-30","en_name":"Gat. Marcelo H. Del Pilar Day","fil_name":"Kaarawan ni Gat. Marcelo H. Del Pilar","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Province of Bulacan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"8-31","en_name":"Surigao City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Surigao","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Surigao City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-1","en_name":"Baguio City Day","fil_name":"Araw ng Lungsod ng Baguio","trans":"","type":"Locally Observed Holiday","description":"Special non-working holiday only in Baguio marking its foundation in 1909.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-1","en_name":"Jasaan Day","fil_name":"Araw ng Jasaan","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Jasaan only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-2","en_name":"Nueva Ecija Day","fil_name":"Araw ng Nueva Ecija","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Nueva Ecija only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-2","en_name":"Simeon Ola Day","fil_name":"Kaarawan ni Simeon Ola","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Albay only. Commemorates the birth of Gen. Simeón Ola, the last Filipino army general who surrendered to the American forces during the Philippine-American War.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-3","en_name":"Iriga City Foundation Day","fil_name":"Araw ng Establisyento ng Syudad ng iriga","trans":"","type":"Locally Observed Holiday","description":"This is a Special Non-Working Day Iriga to honor the city's founding anniversary.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-9","en_name":"Osmeña Day","fil_name":"Araw ni Pangulong Osmeña","trans":"","type":"Locally Observed Holiday","description":"This is a Special Non-Working Day (Republic Act No. 6953) applicable in Cebu to honor the nation's fourth president on his birthday.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-9","en_name":"Mina Foundation Day","fil_name":"Araw ng Pagkatatag ng Bayan ng Mina","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Mina only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-9","en_name":"San José del Monte City Day","fil_name":"Araw ng Lungsod ng San José del Monte","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to San Jose del Monte only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-","en_name":"Peñafrancia Festival","fil_name":"Pista ng Peñafrancia","trans":"","type":"Locally Observed Holiday","description":"Applies only to Naga, Camarines Sur and honors the miraculous image of Our Lady of Peñafrancia, the patroness of the Bicol Region.","rule":{"inMonth":"5, 2, 0, 3","inYear":"-1"}},{"date":"9-10","en_name":"Feast of San Nicolás de Tolentino","fil_name":"Kapistahan ni San Nicolas de Tolentino","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Surigao City only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-11","en_name":" Marcos Day","fil_name":"Araw ni Pangulong Marcos","trans":"","type":"Locally Observed Holiday","description":"This Special Non-Working Day (Proclamation No. 310) applies to the province of Ilocos Norte only and honors the birthday of the nation's tenth president.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-13","en_name":"Battle of Pulang Lupa Day","fil_name":"Araw ng Labanan sa Pulang Lupa","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Marinduque only. Remembers the patriotic victory in the 1900 Battle of Pulang Lupa against American forces.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-17","en_name":"Siquijor Day","fil_name":"Araw ng Siquijor","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Siquijor only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-18","en_name":"Tacurong City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Tacurong","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies to Tacurong only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-21","en_name":"Cebu Press Freedom Day","fil_name":"Araw ng Malayang Pamamahayag sa Cebu","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Cebu only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"9-24","en_name":"Yulo Day","fil_name":"Araw ni José Yulo","trans":"","type":"Locally Observed Holiday","description":"REPUBLIC ACT NO. 7851 – Special Non-working Holiday in Calamba, Laguna, to commemorate the birth anniversary of the late speaker José Yulo Sr.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-3","en_name":"Imus Foundation Day","fil_name":"Araw ng Pagkatatag ng Bayan ng Imus","trans":"","type":"Locally Observed Holiday","description":"This day commemorating the foundation of Imus (as municipality) on October 3, 1795. This special non-working holiday applies to Imus only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-12","en_name":"Fiesta Pilar","fil_name":"Araw ng Kapistahan ni Nuestra Señora del Pilar","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Zamboanga City only in celebration of its patron saint, Nuestra Señora del Pilar.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-16","en_name":"Oroquieta City Day","fil_name":"Araw ng Lungsod ng Oroquieta","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Oroquieta only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-19","en_name":"Bacolod City Charter Day","fil_name":"Araw ng Pribilehiyo ng Lungsod ng Bacolod","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday only applies to Bacolod.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-20","en_name":"Leyte Landing Day","fil_name":"Araw ng Leyte Landing","trans":"","type":"Locally Observed Holiday","description":"This regular holiday applies to Tacloban only. Commemorates the landing of American and Filipinos forces on Palo Beach during the Battle of Leyte in 1944, signalling the beginning liberation of the country in the Second World War.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-26","en_name":"Foundation Day of Catanduanes","fil_name":"Araw ng Pagkakatatag ng Catanduanes","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Catanduanes only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"10-28","en_name":"Foundation Day of Davao Occidental","fil_name":"Araw ng Pagkakatatag ng Davao Occidental","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Davao Occidental only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-4","en_name":"President Carlos P. Garcia Day","fil_name":"Araw ni Pangulong Garcia","trans":"","type":"Locally Observed Holiday","description":"Commemorates the birth of Carlos P. Garcia, the eighth President of the Philippines, native of Bohol. This special non-working holiday applies only to the Province of Bohol.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-5","en_name":"Al Cinco de Noviembre (Negros Day)","fil_name":"Araw ng Negros","trans":"","type":"Locally Observed Holiday","description":"Also called Al Cinco de Noviembre, this special non-working holiday applies to the province of Negros Occidental only. Honors the 1898 Negros Revolution and those who took part.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-15","en_name":"Oriental Mindoro Day","fil_name":"Araw ng Silangang Mindoro","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to the province of Oriental Mindoro only, the province became an independent and separated from Occidental Mindoro via Republic Act No. 505 on this day in 1950.","rule":{"inMonth":"","inYear":"-1"}},{"date":"11-16","en_name":"Quirino Day","fil_name":"Araw ni Quirino","trans":"","type":"Locally Observed Holiday","description":"To commemorate the birth anniversary of late President Elpidio Quirino as declared under Presidential Proclamation No. 1927 dated November 15, 1979 issued by the late President Ferdinand E. Marcos. This special non-working holiday applies to the province of Ilocos Sur only, the very province on which he was born in its capital of Vigan.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-1","en_name":"Kabakahan Festival","fil_name":"Pista ng Kabakahan","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Padre Garcia, Batangas only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-2","en_name":"Pasay City Day","fil_name":"Araw ng Pasay","trans":"","type":"Locally Observed Holiday","description":"This special non-working holiday applies to Pasay only, the city was founded on this day in 1863.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-8","en_name":"Taguig Holiday","fil_name":"Araw ng Taguig","trans":"","type":"Locally Observed Holiday","description":"As per Proclamation No. 81 signed December 1, 2010, Taguig Holiday is celebrated henceforth every December 8.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-11","en_name":"Pampanga Day","fil_name":"Araw ng Pampanga","trans":"","type":"Locally Observed Holiday","description":"Under the virtue of Proclamation No. 2226 of late President Ferdinand Marcos. This special non-working holiday applies to the province of Pampanga only, celebrating its 1571 founding as one of the nation's oldest provinces.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-13","en_name":"General Trias Foundation Day and Valenciana Festival","fil_name":"Araw ng Pagkakatatag ng General Trias at Pistang Valenciana","trans":"","type":"Locally Observed Holiday","description":"This special working holiday applies of General Trias only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-18","en_name":"López Jaena Day","fil_name":"Araw ni Lopez Jaena","trans":"","type":"Locally Observed Holiday","description":"This regular holiday in Iloilo province and Iloilo City only. Honors Graciano López Jaena and his contributions to the Propaganda Movement of the 1880s.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-20","en_name":"Feast Day of Santa Lucia","fil_name":"Kapistahan ni Santa Lucia","trans":"","type":"Locally Observed Holiday","description":"This day commemorates Saint Lucy, the patron saint of the town of Santa Lucia, Ilocos Sur. This special non-working holiday applies to Santa Lucia, Ilocos Sur only.","rule":{"inMonth":"","inYear":"-1"}},{"date":"12-29","en_name":" San Pedro Cityhood Day","fil_name":"Araw ng Pagkalungsod ng San Pedro","trans":"","type":"Locally Observed Holiday","description":"This day commemorates the cityhood of San Pedro, Laguna in 2013. This special non-working holiday applies to city of San Pedro only.","rule":{"inMonth":"","inYear":"-1"}}]
+[
+	{
+		"date": "1-1",
+		"en_name": "New Year's Day",
+		"fil_name": "Araw ng Bagong Taon",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Celebrates the first day of the year in Gregorian calendar.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-22",
+		"en_name": "Chinese New Year",
+		"fil_name": "Bagong Taon ng mga Tsino",
+		"trans": "Movable",
+		"type": "Special Holiday",
+		"description": "Also known as the Spring Festival or Lunar New Year.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "2-25",
+		"en_name": "EDSA Revolution Anniversary",
+		"fil_name": "Anibersaryo ng Rebolusyon sa EDSA",
+		"trans": "Fixed",
+		"type": "Special Holiday",
+		"description": "Anniversary of the end of the 1986 People Power Revolution.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-6",
+		"en_name": "Maundy Thursday",
+		"fil_name": "Huwebes Santo",
+		"trans": "Movable",
+		"type": "Regular Holiday",
+		"description": "Part of the Triduum of Holy Week and includes the Mass of the Lord's Supper (the Last Supper).",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "4-7",
+		"en_name": "Good Friday",
+		"fil_name": "Biyernes Santo",
+		"trans": "Movable",
+		"type": "Regular Holiday",
+		"description": "Commemorates the suffering, crucifixion and death of Jesus Christ. Processions, passion plays, the recitation of the Pasyon, and various religious services are among the customs practiced on this day.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "4-8",
+		"en_name": "Black Saturday",
+		"fil_name": "Sabado de Gloria",
+		"trans": "Movable",
+		"type": "Special Holiday",
+		"description": "Part of the Easter Triduum and Holy Week. Commemorates Christ's Descent into Hell as his body lay in the Holy Sepulchre.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "4-9",
+		"en_name": "Day of Valor",
+		"fil_name": "Araw ng Kagitingan",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Commemorates the Fall of Bataan during the Japanese invasion of the Philippines, and by extension, the courage of Filipino and American soldiers throughout the Second World War.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-1",
+		"en_name": "Labor Day",
+		"fil_name": "Araw ng Paggawa",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Anniversary of the May 1, 1903 rally by the Unión Obrera Democrática Filipina. Held in conjunction with the International Workers' Day.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-22",
+		"en_name": "Eid'l Fitr",
+		"fil_name": "Eidul Fitr / Araw ng Ramadan",
+		"trans": "Movable",
+		"type": "Regular Holiday",
+		"description": "Feast at the end of Ramadan",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "6-12",
+		"en_name": "Independence Day",
+		"fil_name": "Araw ng Kalayaan",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Anniversary of the proclamation of the Philippine Declaration of Independence on June 12, 1898. From 1947 to 1964, Independence Day was celebrated on July 4 (see below).",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-29",
+		"en_name": "Eid'l Adha",
+		"fil_name": "Eidul Adha / Araw ng Kurban",
+		"trans": "Movable",
+		"type": "Regular Holiday",
+		"description": "Feast at the end of the Hajj when Muslims sacrifice a goat, sheep, cow or a camel to be sent to the poor as a donation. The Hajj is when Muslims go on required pilgrimage to Mecca.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "8-21",
+		"en_name": "Ninoy Aquino Day",
+		"fil_name": "Araw ng Kabayanihan ni Ninoy Aquino",
+		"trans": "Fixed",
+		"type": "Special Holiday",
+		"description": "Anniversary of Assassination of Benigno Aquino, Jr. in 1983.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-29",
+		"en_name": "National Heroes Day",
+		"fil_name": "Araw ng mga Bayani",
+		"trans": "Movable",
+		"type": "Regular Holiday",
+		"description": "Anniversary of the 1896 Cry of Pugad Lawin by the Katipunan which began the Philippine Revolution and commemorates all the nation's heroes. Held every last Monday of August. Usually, it's the last holiday before the long celebration of the Christmas season which begins on September 1, and since 2020, the last holiday before most educational institutions begin their academic year.",
+		"rule": { "inMonth": "", "inYear": "+0" }
+	},
+	{
+		"date": "11-1",
+		"en_name": "All Saints' Day",
+		"fil_name": "Undás; Todos los Santos; Araw ng mga Santo",
+		"trans": "Fixed",
+		"type": "Special Holiday",
+		"description": "Filipinos observe this day by visiting family graves, repairing and cleaning tombs, and offering prayers, flowers, food, and candles. Many return to their native provinces for this, making it an occasion for reunions with extended family.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-2",
+		"en_name": "All Souls Day",
+		"fil_name": "Araw ng mga Kaluluwa",
+		"trans": "Fixed",
+		"type": "Special working Holiday",
+		"description": "None",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-30",
+		"en_name": "Bonifacio Day",
+		"fil_name": "Araw ng Kapanganakan ni Andrés Bonifacio",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Birth anniversary of Andrés Bonifacio, de facto national hero. Bonifacio is remembered on his birthday, rather than the date of his death (May 10, 1897), because he was executed by the Filipino revolutionary government and not by colonial powers. Often confused with National Heroes' Day.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-8",
+		"en_name": "Feast of the Immaculate Conception of the Blessed Virgin Mary",
+		"fil_name": "Kapistahan ng Kalinís-linisang Paglilihî ng Mahál na Birheng María",
+		"trans": "Fixed",
+		"type": "Special Holiday",
+		"description": "Catholic solemnity marking the pure and sinless conception of the Blessed Virgin Mary, honored as mother and Principal Patroness of the Philippines since 1942.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-24",
+		"en_name": "Christmas Eve",
+		"fil_name": "Bisperas ng Pasko",
+		"trans": "Fixed",
+		"type": "Special working Holiday",
+		"description": "Marks the eve of Christmas. Filipinos generally hold the Nochebuena meal at midnight.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-25",
+		"en_name": "Christmas Day",
+		"fil_name": "Araw ng Pasko",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Birth anniversary of Jesus Christ, main figure of Christianity.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-30",
+		"en_name": "Rizal Day",
+		"fil_name": "Paggunita sa Kamatayan ni Dr. Jose Rizal",
+		"trans": "Fixed",
+		"type": "Regular Holiday",
+		"description": "Death anniversary of the Execution of Jose Rizal, considered by mainstream Filipinos as the de facto national hero.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-31",
+		"en_name": "New Year's Eve",
+		"fil_name": "Bisperas ng Bagong Taon (Last Day of the Year)",
+		"trans": "Fixed",
+		"type": "Special working Holiday",
+		"description": "This holiday, which marks the conclusion of the civil year, is between two regular holidays, Rizal Day, and New Year's Day. This holiday is a special non-working day every December 31.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-23",
+		"en_name": "First Philippine Republic Day",
+		"fil_name": "Araw ng Unang Republika ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the establishment of the First Philippine Republic on January 23, 1899, at the Barasoain Church in Malolos, Bulacan.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-25",
+		"en_name": "Day of National Remembrance",
+		"fil_name": "Araw ng Pambansang Pag-alala",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2018. Celebrates the heroism of the 44 Special Action Force (SAF) troopers who were killed in an encounter in Mamasapano, Maguindanao on January 25, 2015.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-29",
+		"en_name": "National Police Anniversary Day",
+		"fil_name": "Araw ng Pagkakatatag ng Pambansang Pulisya",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday celebrated since 1992 marking the 1991 formation of the Philippine National Police and honoring the service of the thousands of men and women in the law enforcement profession. The PNP was formally raised in 1991 as a result of the enactment of Republic Act No. 6975, which created the service on the basis of both the Philippine Constabulary and the Integrated National Police.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-2",
+		"en_name": "Constitution Day",
+		"fil_name": "Araw ng Saligang Batas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2002. Celebrates the ratification of the current 1987 Constitution.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-4",
+		"en_name": "Philippine–American War Memorial Day",
+		"fil_name": "Araw ng Paggunita sa Digmaang Pilipino–Amerikano",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2020. Honoring the millions of Filipinos who fought and died as a result of the war against the occupation forces of the United States that began on February 4, 1899, and ended in 1902.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-8",
+		"en_name": "National Women's Day",
+		"fil_name": "Pambansang Araw ng Kababaihan",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday that celebrates the social, economic, cultural and political achievements of women, celebrated in conjuction with International Women's Day.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-23",
+		"en_name": "Philippine Army Day and anniversary of the Tejeros Convention",
+		"fil_name": "Araw ng Hukbong Katihan ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday that celebrates the 1897 foundation of the Philippine Army as a result of the decisions made in the historic Tejeros Convention. Also marks the birthday of Emilio Aguinaldo, the founding president of the Philippines.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-27",
+		"en_name": "Lapu-Lapu Day",
+		"fil_name": "Araw ni Lapu-Lapu",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the victory of Lapu-Lapu and his men over the Spaniards, led by Ferdinand Magellan, during the Battle of Mactan on April 27, 1521.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-20",
+		"en_name": "Philippine Navy Day",
+		"fil_name": "Araw ng Hukbong Dagat ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday that celebrates the 1898 foundation of the Philippine Navy.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-28",
+		"en_name": "Flag Day",
+		"fil_name": "Araw ng Pambansang Watawat",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Celebration of the patriotic victory in the 1898 Battle of Alapan, the first time the national flag was unfurled in public. Independence Day celebrations begin on this day, lasting until June 12.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "José Rizal's birthday",
+		"fil_name": "Araw ng Kapanganakan ni José Rizal",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "First declared in 1961 by President Carlos P. García in honor of the birth centenary of José Rizal. Monday, June 20, 2011, was declared a special non-working holiday by President Benigno Aquino III for Rizal's 150th birth anniversary as requested by the National Historical Commission of the Philippines. On November 9, 2018, President Rodrigo Duterte signs Republic Act No. 11144, that declaring June 19, as a special non working holiday in Laguna every year.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-30",
+		"en_name": "Spanish-Filipino Friendship Day",
+		"fil_name": "Araw ng Pagkakaibigang Pilipino-Espanyol",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Honors both the 30 Spanish soldiers who surrendered in the Siege of Baler of 1898–99, considered the \"last ones of the Philippines\" (Los últimos de Filipinas), and the cultural, religious and social ties of Spain and the Philippines and their peoples",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-1",
+		"en_name": "Philippine Air Force Day",
+		"fil_name": "Araw ng Hukbong Himpapawid ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday that celebrates the enactment of Executive Order No. 94 in 1947 that caused the formation of the Philippine Air Force as a separate service branch of the Armed Forces, on the basis of the former Philippine Army Air Corps of the Army.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-4",
+		"en_name": "Republic DayPhilippine-American Friendship Day",
+		"fil_name": "Araw ng RepublikaAraw ng Pagkakaibigang Pilipino-Amerikano",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Former national non-working holiday and today a working and cultural holiday celebrating the 1946 Treaty of Manila that restored Philippine independence thru recognition by the United States, and also celebrating the historical, economic, cultural, political, religious and social ties between the Philippines and the United States and the peoples of these two nations.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-25",
+		"en_name": "National Campus Press Freedom Day",
+		"fil_name": "Pambansang Araw ng Malayang Pamamahayag sa Kampus",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2020. This holiday aims to promote, protect, and safeguard the constitutionally guaranteed right to freedom of expression, speech and of the press in the Philippines especially in school campuses.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-27",
+		"en_name": "Iglesia ni Cristo Day",
+		"fil_name": "Araw ng Iglesia ni Cristo",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "In 2009, July 27 was designated by a Republic Act as a yearly special national working holiday to honor the foundation of the Iglesia ni Cristo in 1914. This day was declared as a special non-working day in the year 2014 to commemorate the church's 100th Anniversary.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-12",
+		"en_name": "National Police Service Day and anniversary of the formation of the Philippine Constabulary",
+		"fil_name": "Araw ng Pambansang Serbisyong Pangpulisya",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday celebrating all the men and women of the Philippine National Police and all its predecessor services in appreciation and gratitude for service to the community. This also marks the anniversary of the 1901 formation of the Philippine Constabulary under future United States president and Governor-General of the Philippines William Howard Taft.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-18",
+		"en_name": "Jesse Robredo Day",
+		"fil_name": "Araw ni Jesse Robredo",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2016. Celebrates the internationally recognized former mayor of Naga City Jesse Robredo who died while serving as Aquino's local government secretary on August 18, 2012.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-25",
+		"en_name": "National Tech-Voc Day",
+		"fil_name": "Pambansang Araw ng Teknolohikal-Bokasyonal",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2018. This holiday aims to promote technical and vocational education and training in the Philippines.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-30",
+		"en_name": "National Press Freedom Day",
+		"fil_name": "Pambansang Araw ng Kalayaan sa Pamamahayag",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which will be first observed in 2022. This holiday aims to promote, protect, and safeguard the constitutionally guaranteed right to freedom of expression, speech and of the press in the Philippines and also in honor of Marcelo H. del Pilar, father of Philippine journalism.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-1",
+		"en_name": "Official first day and beginning of the Philippine Christmas season",
+		"fil_name": "Unang araw at pagsismula ng panahon ng Kapaskuhan sa Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Working and cultural holiday that officially marks the beginning of the Philippine Christmas season, the longest holiday season in the world. Since the late 1980s, the 1st day of September is generally marked as the day that the Christmas season officially begins in the country, for on this day radio stations finally transition to playing Christmas music and shopping malls begin playing holiday themed music as well.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-3",
+		"en_name": "Surrender of General Tomoyuki Yamashita Day(Victory over Japan Day)",
+		"fil_name": "Araw ng Pagsuko ni Heneral Tomoyuki YamashitaAraw ng Tagumpay laban sa Hapon",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the surrender of Japanese Army General Tomoyuki Yamashita in Baguio at the conclusion of hostilities of the Second World War on September 3, 1945.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-8",
+		"en_name": "Feast of the Nativity of the Blessed Virgin Mary",
+		"fil_name": "Pagdiriwang ng Kapanganakan ng Mahal na Birheng Maria",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the birth of the Blessed Virgin Mary. It is instituted by virtue of Republic Act No. 11370.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-21",
+		"en_name": "Anniversary of the formal declaration of Martial law in the Philippines",
+		"fil_name": "Anibersaryo ng pagsisimula ng Batas Militar sa Republika ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2017, marking the day in 1972 when Martial Law was proclaimed nationwide. Normally it is also a school holiday in some years as there are no classes in several cities. Remembrance ceremonies are held to honor the thousands who perished in one of the darkest chapters in Philippine history, while student rallies are held in memory of the student leaders involved in pro-democracy actions during this period.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-17",
+		"en_name": "Philippine Coast Guard Day",
+		"fil_name": "Araw ng Tanod Baybabin ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Working holiday marking the 1901 establishment of the Philippine Coast Guard, one of the oldest coast guard organizations in Southeast Asia.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-17",
+		"en_name": "National Students' Day",
+		"fil_name": "Pambansang Araw ng mga Mag-aaral",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the recognition and contribution of student activism to Philippine democracy.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-20",
+		"en_name": "National Children's Day",
+		"fil_name": "Pambansang Araw ng mga Bata",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday celebrating the rights and importance of every Filipino child as the core of the nation's future, as well as the 1989 adoption by the United Nations General Assembly of the Convention on the Rights of the Child.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-10",
+		"en_name": "Human Rights Day",
+		"fil_name": "Araw ng Karapatang Pantao",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "A working holiday that celebrates the adoption of the Universal Declaration of Human Rights (UDHR) by the United Nations General Assembly on December 10, 1948.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-21",
+		"en_name": "Armed Forces Day",
+		"fil_name": "Araw ng Hukbong Sandatahang Lakas ng Pilipinas",
+		"trans": "Fixed",
+		"type": "Working Holiday",
+		"description": "Working holiday marking the official formation in 1935 of the Armed Forces of the Philippines.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-",
+		"en_name": "National Bible Day",
+		"fil_name": "Pambansang Araw ng Bibliya",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "A working holiday which was first observed in 2019. Celebrates the value of the Holy Bible as the core of the country's Christian faith professed by millions of its people, held on the Monday following the final Sunday of January which serves as the conclusion of the week-long celebrations of National Bible Week organized by the country's Christian faiths.",
+		"rule": { "inMonth": "1, -1", "inYear": "-1" }
+	},
+	{
+		"date": "2-5",
+		"en_name": "Lantern Festival",
+		"fil_name": "Piyesta ng mga Parol Tsino, Piyestang Yuanxiao",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Working holiday among the Filipino Chinese which marks the conclusion of the Chinese New Year festivities 15 days after.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	null,
+	{
+		"date": "9-10",
+		"en_name": "Mid-Autumn Festival (Mooncake Festival)",
+		"fil_name": "Pista ng Gitnang Taglagas, Pistang Tiong Chiu",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Working holiday by the Filipino Chinese community to celebrate the fall harvest, also a cultural observance by many Filipinos and part of the opening salvo of the long Christmas season which begins in the time period in which this festival falls (either in September or October), usually the festival period marks the time when the first Christmas sales are held in shopping malls.",
+		"rule": { "inMonth": "", "inYear": "+0" }
+	},
+	{
+		"date": "2-18",
+		"en_name": "Isra and Mi'raj",
+		"fil_name": "Gabi ng Isra at Mi'raj",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Working holiday by Filipino Muslims in commemoration of the journey at night by the Prophet Muhammad, marked on the 27th day of the Islamic month of Rajab.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "3-19",
+		"en_name": "Mid-Sha'ban",
+		"fil_name": "Gabi ng Niṣf Sha‘bān",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Working and cultural holiday by Filipino Muslims marked on the 14th day of the Islamic month of Sha'ban. Celebrated mostly by expat Muslims from Middle Eastern countries that observe the holiday.",
+		"rule": { "inMonth": "", "inYear": "+0" }
+	},
+	{
+		"date": "7-18",
+		"en_name": "First of Muharram (Islamic New Year)",
+		"fil_name": "Unang Araw ng Muharram,Bagong Taong Islamiko",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Working holiday by Filipino Muslims to mark the beginning of the Islamic year.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "9-27",
+		"en_name": "Prophet Muhammad's Birthday/Milad un Nabi",
+		"fil_name": "Araw ng Kapanganakan ni Propetang Muhammad, Pistang Mawlid",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Known elsewhere as Mawlid, the day marks the birth of the Prophet Muhammad on the 12th day of Rabi' al-awwal, the third month of the Islamic calendar.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "11-23",
+		"en_name": "Thanksgiving Day",
+		"fil_name": "Araw ng Pasasalamat",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Formerly a national holiday until 1971 (held from 1973 to 1985 on September 21, the anniversary of the beginning of Martial Law), currently marked as a commercial and cultural working holiday. Mainly celebrated by the Filipino-American community and American expats, and now increasingly being revived, this day is a day of giving thanks and sacrifice for the blessing of the harvest and of the preceding year. Unlike in the United States and its overseas territories, wherein this day marks the start of the Christmas season, it is held in the Philippines as part of the long Christmas season. Held every final Thursday of November.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "11-24",
+		"en_name": "Black Friday",
+		"fil_name": "Itim na Biyernes",
+		"trans": "Movable",
+		"type": "Working Holiday",
+		"description": "Informally the term for the Friday following Thanksgiving that among Filipino Americans marks the official start of the Christmas shopping season, marked mostly as a shopping holiday by the retail sector and online shopping websites. Unlike in the United States, the country observes it as a working holiday that serves as part of the Christmas season, and the days following it are where a large variety of holiday-themed events are held by schools, colleges, universities, all private and public sector companies and all local governments. In the 21st century, the practice of holiday sales on this day began as part of the final salvo of Christmas sales in shopping malls, and the term itself began to be adopted in the late 2010s by both US-based retail brands and local department stores.",
+		"rule": { "inMonth": "", "inYear": "+1" }
+	},
+	{
+		"date": "1-11",
+		"en_name": "Bataan Foundation Day",
+		"fil_name": "Araw ng Pagkakatatag ng Bataan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Bataan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-12",
+		"en_name": "Valencia City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Valencia",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Valencia, Bukidnon only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-16",
+		"en_name": "Navotas Day",
+		"fil_name": "Araw ng Navotas",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Navotas only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-17",
+		"en_name": "James Leonard Tagle Gordon Day",
+		"fil_name": "Araw ng Kapanangakan ni James Leonard Tagle Gordon",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Celebrated only in Olongapo and the Subic Bay Freeport Zone, this holiday reflects on the achievements, contributions and heroism of the late politician and city mayor.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "1-",
+		"en_name": "Sinulog",
+		"fil_name": "Sinulog",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to the province of Cebu and Tacloban only, honors the Santo Niño.",
+		"rule": { "inMonth": "0, 3", "inYear": "-1" }
+	},
+	{
+		"date": "1-",
+		"en_name": "Sinulog Rest Day",
+		"fil_name": "Sinulog Rest Day",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to the province of Cebu, Cebu City, Mandaue City, Lapu-Lapu City and other provinces and cities who joined in the year's Sinulog Festival in Cebu.",
+		"rule": { "inMonth": "0, 3, +1", "inYear": "-1" }
+	},
+	{
+		"date": "1-22",
+		"en_name": "Vigan Cityhood Day",
+		"fil_name": "Araw ng Pagkalungsod ng Vigan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to the city of Vigan. It happens three days before the city's fiesta.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-3",
+		"en_name": "Blas Ople Birth Anniversary",
+		"fil_name": "Pagdiriwang ng Kapanangakan ni Blas Ople",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This is only celebrated in the province of Bulacan. Celebrates the birth of Blas Ople, statesman and former senator.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-3",
+		"en_name": "Cabanatuan City Day",
+		"fil_name": "Araw ng Cabanatuan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to the city of Cabanatuan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-5",
+		"en_name": "Biñan Liberation Day",
+		"fil_name": "Araw ng Liberasyon ng Biñan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to the city of Biñan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-9",
+		"en_name": "Mandaluyong Liberation and Cityhood Day",
+		"fil_name": "Araw ng Liberasyon at Pagkalungsod ng Mandaluyong",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Mandaluyong only, honoring the 1945 liberation of Mandaluyong and its 1995 elevation to cityhood.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-11",
+		"en_name": "Evelio Javier Day",
+		"fil_name": "Araw ni Evelio Javier",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the provinces of Antique, Capiz, Aklan, and Iloilo only, in remembrance of the 1986 murder of the popular Governor of Antique whose death was one of the causes of the 1986 People Power Revolution.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-13",
+		"en_name": "Parañaque Day",
+		"fil_name": "Araw ng Parañaque",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Parañaque only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-14",
+		"en_name": "Valenzuela City Day",
+		"fil_name": "Araw ng Lungsod ng Valenzuela",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Valenzuela only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-24",
+		"en_name": "Cebu City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Cebu",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Cebu City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-26",
+		"en_name": "Día de Zamboanga (Zamboanga Day)",
+		"fil_name": "Araw ng Zamboanga",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies only to Zamboanga City only as celebration of the anniversary of the inauguration of Zamboanga as a city, even its Charter was signed on October 12 which is also a holiday in celebration of the Feast of Nuestra Señora del Pilar, the city's patron saint.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "2-21,27",
+		"en_name": "Musikahan Festival",
+		"fil_name": "Musikahan Festival",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Tagum only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-1",
+		"en_name": "Muntinlupa City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Muntinlupa",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Muntinlupa only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-2",
+		"en_name": "La Union Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lalawigan ng La Union",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to La Union only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-2",
+		"en_name": "Cavite Day",
+		"fil_name": "Araw ng Kabite",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies only in province of Cavite.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-7",
+		"en_name": "Tagum City Day",
+		"fil_name": "Araw ng Tagum",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Commemorating the elevation of then Tagum municipality into the first component city of Davao del Norte. This regular holiday applies to Tagum only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-8",
+		"en_name": "Davao de Oro Foundation Day",
+		"fil_name": "Araw ng Davao de Oro",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Davao de Oro province only, celebrating the foundation of the province in 1998.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-16",
+		"en_name": "Davao City Day",
+		"fil_name": "Araw ng Dabaw",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Commemorating the signing of the Davao Charter, creating the city of Davao. This special non-working holiday applies to Davao City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-18",
+		"en_name": "Panay Liberation Day",
+		"fil_name": "Araw ng Liberasyon ng Panay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to all provinces and cities on the islands of Guimaras, Panay and Romblon marking the 1945 liberation of these provinces by joint Filipino and American forces.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-19",
+		"en_name": "Sulyog Festival",
+		"fil_name": "Feast of St. Joseph",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates Saint Joseph, husband of the Blessed Virgin Mary, the patron saint of the town of Bongabong, Oriental Mindoro. This special non-working holiday applies to Bongabong, Oriental Mindoro only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-21",
+		"en_name": "San Fabian Day",
+		"fil_name": "Araw ng San Fabian",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to San Fabian, Pangasinan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-21",
+		"en_name": "Calapan City Foundation Day",
+		"fil_name": "Araw ng Pagkakatatag ng Syudad ng Calapan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates the cityhood of Calapan, Oriental Mindoro in 1998. This special non-working holiday applies to city of Calapan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-22",
+		"en_name": "Malaybalay City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Malaybalay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Malaybalay only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-22",
+		"en_name": "Emilio Aguinaldo Day",
+		"fil_name": "Kaarawan ni Emilio Aguinaldo",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "A holiday which was observed in 2019. Celebrates the birth anniversary of a Filipino revolutionary during the Philippine Revolution and the President of the Philippine Republic Emilio Aguinaldo.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-25",
+		"en_name": "Cry of Candon",
+		"fil_name": "Sigaw ng Candon / Ikkis ti Candon",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Candon only. March 25 commemorates the \"Cry of Candon\" in the city of Candon, Ilocos Sur, when local heroes led by Don Isabelo Abaya declared the Republica de Filipinas Katipunan de Candon. In honor of the men and women who sacrificed their lives for freedom, March 25 of every year is hereby declared a special nonworking holiday in the city of Candon.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-27",
+		"en_name": "San Juan Day",
+		"fil_name": "Araw ng San Juan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to San Juan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "3-31",
+		"en_name": "First Mass Day",
+		"fil_name": "Araw ng Unang Misa",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday only in province of Southern Leyte. In commemoration of the first mass held in Limawasa Island which was officiated on Easter Sunday of March 31, 1521 by Father Pedro de Valderrama under the fleet of Ferdinand Magellan.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-3",
+		"en_name": "Albay Day",
+		"fil_name": "Araw ng Albay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday only in province of Albay. In commemoration of its founding anniversary.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-5",
+		"en_name": "Pangasinan Day",
+		"fil_name": "Araw ng Pangasinan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday only in province of Pangasinan. In commemoration of its founding anniversary.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-21",
+		"en_name": "Calamba City Day",
+		"fil_name": "Araw ng Calamba",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Commemorating the signing of the Calamba Charter, creating the city of Calamba. This special non-working holiday applies to Calamba only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "4-21",
+		"en_name": "Orani Foundation Day",
+		"fil_name": "Araw ng Pagkakatatag ng Orani",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Orani only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-3",
+		"en_name": "Sampaguita Festival",
+		"fil_name": "Pista ng Sampaguita",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to San Pedro only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-3",
+		"en_name": "Sta. Cruz Day",
+		"fil_name": "Araw ng Sta. Cruz",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Sta. Cruz only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-4",
+		"en_name": "Ilagan Day",
+		"fil_name": "Aggaw na Ilagan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Celebrating the foundation of Ilagan (as municipality). This special non-working holiday applies to Ilagan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-21",
+		"en_name": "Malabon Day",
+		"fil_name": "Araw ng Malabon",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Malabon only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-24",
+		"en_name": "Nueva Vizcaya Day",
+		"fil_name": "Ammungan Festival",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "The province's foundation day. This special non-working holiday applies to Nueva Vizcaya only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "5-27",
+		"en_name": "San Josee Parish Fiesta",
+		"fil_name": "Fiesta ni Señor San José",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Special non-working holiday in honor of Saint Joseph which only applies to Matalom, Leyte.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-1",
+		"en_name": "Biray Festival",
+		"fil_name": "Pistang Biray / Araw ng Imahen ng Birheng Maria",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Honors the Blessed Virgin Mary as part of the Flores de Mayo in Belison, Antique. This special non-working holiday applies to Belison, Antique only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-11",
+		"en_name": "Rizal Province Day",
+		"fil_name": "Araw ng Rizal",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Rizal province only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-11",
+		"en_name": "Sagay Day",
+		"fil_name": "Araw ng Sagay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Sagay, Negros Occidental only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-15",
+		"en_name": "Cagayán de Oro Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Cagayan de Oro",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Cagayan de Oro only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-15",
+		"en_name": "Opol Day",
+		"fil_name": "Araw ng Opol",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Opol only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-16",
+		"en_name": "Baybay City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Baybay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Baybay City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-16",
+		"en_name": "Iligan City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Iligan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Iligan City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-18",
+		"en_name": "Naga City Charter Anniversary",
+		"fil_name": "Anibersaryo ng Pribilehiyo ng Lungsod ng Naga",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Naga, Camarines Sur only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-18",
+		"en_name": "Benguet Foundation Day",
+		"fil_name": "Araw ng Pagkakatatag ng Benguet",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Benguet only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-18",
+		"en_name": "Bacolod City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Bacolod",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Bacolod City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "Surigao del Sur Day",
+		"fil_name": "Araw ng Surigao del Sur",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Surigao del Sur only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "Surigao del Norte Day",
+		"fil_name": "Araw ng Surigao del Norte",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Surigao del Norte only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "Feast of the Forest",
+		"fil_name": "Pista ng Kagubatan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Palawan only celebrating the importance of forests in the province.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "Laguna Day",
+		"fil_name": "Araw ng Laguna",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Laguna only. This also commemorates Dr. José Rizal's birthday.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-19",
+		"en_name": "Calambanga Festival",
+		"fil_name": "Araw ng Calamba",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Calamba only. This also commemorates Dr. José Rizal's birthday and a review of the history of Calamba.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-21",
+		"en_name": "Naliyagan Festival",
+		"fil_name": "Pistang Naliyagan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Special non-working holiday, applies to Agusan del Sur only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-23",
+		"en_name": "Bacoor Cityhood Day",
+		"fil_name": "Araw ng Pagkalungsod ng Bacoor",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates the cityhood of Bacoor in the province of Cavite on June 23, 2012. This special non-working holiday applies to Bacoor only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-24",
+		"en_name": "Manila Day",
+		"fil_name": "Araw ng Maynila",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the City of Manila only. It honors the 1571 founding of the city by Miguel López de Legaspi.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-24",
+		"en_name": "Wattah Wattah Festival",
+		"fil_name": "Pista ng San Juan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special holiday applies to San Juan only. This day honor Saint John the Baptist, the patron saint of the city. Also known as the Feast of Saint John San Juan Festival.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-26",
+		"en_name": "Batanes Day",
+		"fil_name": "Araw ng Batanes",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special holiday applies to the province of Batanes only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-30",
+		"en_name": "Tacloban Day and Tacloban City Charter Day",
+		"fil_name": "Araw ng Tacloban",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the city of Tacloban only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "6-30",
+		"en_name": "Imus Cityhood Day",
+		"fil_name": "Araw ng Pagkalungsod ng Imus",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates the cityhood of Imus in the province of Cavite on June 30, 2012. This special non-working holiday applies to Imus only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-1",
+		"en_name": "Tagbilaran City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Tagbilaran",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "A day commemorating the creation of the city of Tagbilaran by virtue of Republic Act No. 4660 on July 1, 1966. This special non-working holiday applies only to Tagbilaran.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-1",
+		"en_name": "Davao Region Day",
+		"fil_name": "Araw ng Rehiyon ng Davao",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Day commemorating the creation of the three Davao provinces from then a \"single\" Davao province, now Davao Region. This regular public holiday applies to the provinces of Davao del Norte, Davao del Sur and Davao Oriental only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-1",
+		"en_name": "Maramag Day",
+		"fil_name": "Araw ng Maramag",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Day commemorating the recognition of Maramag, Bukidnon as a municipality by virtue of Executive Order 272, which was signed by President Carlos P. Garcia on July 1, 1956. This special non-working holiday applies only to the municipality of Maramag.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-1",
+		"en_name": "Alubijid Day",
+		"fil_name": "Araw ng Alubijid",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Alubijid only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-2",
+		"en_name": "Pasig Foundation day",
+		"fil_name": "Araw ng Pasig",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Pasig only. Remembers the founding of the city in 1573.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-22",
+		"en_name": "Bohol Day",
+		"fil_name": "Araw ng Bohol",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "A day commemorating the creation of the province of Bohol by virtue of Act No. 2711 on March 10, 1917, and the anniversary of the 1565 Blood Compact. This special non-working holiday applies only to the whole province of Bohol.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-22",
+		"en_name": "Claveria Day",
+		"fil_name": "Araw ng Claveria",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Claveria, Misamis Oriental in commemoration to its founding.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-23",
+		"en_name": "Apolinario Mabini Day",
+		"fil_name": "Kaarawan ni Apolinario Mabini",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Tanauan only, the city is the hometown of Apolinario Mabini, the prime minister of the First Philippine Republic.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "7-23",
+		"en_name": "Batangas City Day",
+		"fil_name": "Batangas City Foundation Day",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Batangas City in commemoration to its founding.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-2",
+		"en_name": "Butuan City Charter Day",
+		"fil_name": "Adlaw Hong Butuan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This holiday applies to Butuan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-2",
+		"en_name": "Kabankalan City Charter Day",
+		"fil_name": "Adlaw Kabankalan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This holiday applies to Kabankalan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-4",
+		"en_name": " Cabuyao Cityhood Day",
+		"fil_name": "Araw ng Pagkalungsod ng Cabuyao",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates the cityhood of Cabuyao in 2012. This special non-working holiday applies to city of Cabuyao only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-6",
+		"en_name": "Cebu Provincial Charter Day",
+		"fil_name": "Araw ng Panlalawigang Pribilehiyo ng Cebu",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special nonworking holiday applies to the province of Cebu only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-9",
+		"en_name": "Ablan Day",
+		"fil_name": "Kaarawan ni Ablan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Commemorates the birthday of Ilocos Norte's late governor and labor leader, Governor Roque B. Ablan, Sr.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-15",
+		"en_name": "Kadayawan Festival",
+		"fil_name": "Davao Harvest Festival",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Davao City only. (Proc. No. 829 declared that August 15 is a special non-working holiday)",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-15",
+		"en_name": "Bulacan Foundation Day",
+		"fil_name": "Araw ng Bulacan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Bulacan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-19",
+		"en_name": "Manuel Luis Quezón Day",
+		"fil_name": "Kaarawan ni Manuel Luis Quezón",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to the provinces of Quezon and Aurora, and to Quezon City only in honor of the anniversary of the birth of the Commonwealth President Manuel L. Quezon, born on this day in 1878.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-20",
+		"en_name": "Lucena City Charter Day",
+		"fil_name": "Araw ng Lungsod ng Lucena",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Lucena only by virtue of Republic Act No. 3271 – An Act Creating the city of Lucena, approved on June 17, 1961.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-25",
+		"en_name": "Iloilo City Charter Day",
+		"fil_name": "Araw ng Lungsod ng Iloilo",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Iloilo City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-28",
+		"en_name": "Higalaay Festival",
+		"fil_name": "Adlaw sa Pag-Higalaay sa Dakbayan sa Cagayan de Oro",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Non-working holiday in Cagayan de Oro.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-30",
+		"en_name": "Pinaglabanan Day",
+		"fil_name": "Araw ng Pinaglabanan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to San Juan only, often in celebration of the 1896 Battle of Pinaglabanan, the first major battle of the Philippine Revolution and the first major defeat for revolutionary forces.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-30",
+		"en_name": "Gat. Marcelo H. Del Pilar Day",
+		"fil_name": "Kaarawan ni Gat. Marcelo H. Del Pilar",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Province of Bulacan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "8-31",
+		"en_name": "Surigao City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Surigao",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Surigao City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-1",
+		"en_name": "Baguio City Day",
+		"fil_name": "Araw ng Lungsod ng Baguio",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Special non-working holiday only in Baguio marking its foundation in 1909.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-1",
+		"en_name": "Jasaan Day",
+		"fil_name": "Araw ng Jasaan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Jasaan only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-2",
+		"en_name": "Nueva Ecija Day",
+		"fil_name": "Araw ng Nueva Ecija",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Nueva Ecija only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-2",
+		"en_name": "Simeon Ola Day",
+		"fil_name": "Kaarawan ni Simeon Ola",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Albay only. Commemorates the birth of Gen. Simeón Ola, the last Filipino army general who surrendered to the American forces during the Philippine-American War.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-3",
+		"en_name": "Iriga City Foundation Day",
+		"fil_name": "Araw ng Establisyento ng Syudad ng iriga",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This is a Special Non-Working Day Iriga to honor the city's founding anniversary.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-9",
+		"en_name": "Osmeña Day",
+		"fil_name": "Araw ni Pangulong Osmeña",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This is a Special Non-Working Day (Republic Act No. 6953) applicable in Cebu to honor the nation's fourth president on his birthday.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-9",
+		"en_name": "Mina Foundation Day",
+		"fil_name": "Araw ng Pagkatatag ng Bayan ng Mina",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Mina only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-9",
+		"en_name": "San José del Monte City Day",
+		"fil_name": "Araw ng Lungsod ng San José del Monte",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to San Jose del Monte only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-",
+		"en_name": "Peñafrancia Festival",
+		"fil_name": "Pista ng Peñafrancia",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Applies only to Naga, Camarines Sur and honors the miraculous image of Our Lady of Peñafrancia, the patroness of the Bicol Region.",
+		"rule": { "inMonth": "5, 2, 0, 3", "inYear": "-1" }
+	},
+	{
+		"date": "9-10",
+		"en_name": "Feast of San Nicolás de Tolentino",
+		"fil_name": "Kapistahan ni San Nicolas de Tolentino",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Surigao City only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-11",
+		"en_name": " Marcos Day",
+		"fil_name": "Araw ni Pangulong Marcos",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This Special Non-Working Day (Proclamation No. 310) applies to the province of Ilocos Norte only and honors the birthday of the nation's tenth president.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-13",
+		"en_name": "Battle of Pulang Lupa Day",
+		"fil_name": "Araw ng Labanan sa Pulang Lupa",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Marinduque only. Remembers the patriotic victory in the 1900 Battle of Pulang Lupa against American forces.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-17",
+		"en_name": "Siquijor Day",
+		"fil_name": "Araw ng Siquijor",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Siquijor only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-18",
+		"en_name": "Tacurong City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Tacurong",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies to Tacurong only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-21",
+		"en_name": "Cebu Press Freedom Day",
+		"fil_name": "Araw ng Malayang Pamamahayag sa Cebu",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Cebu only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "9-24",
+		"en_name": "Yulo Day",
+		"fil_name": "Araw ni José Yulo",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "REPUBLIC ACT NO. 7851 – Special Non-working Holiday in Calamba, Laguna, to commemorate the birth anniversary of the late speaker José Yulo Sr.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-3",
+		"en_name": "Imus Foundation Day",
+		"fil_name": "Araw ng Pagkatatag ng Bayan ng Imus",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorating the foundation of Imus (as municipality) on October 3, 1795. This special non-working holiday applies to Imus only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-12",
+		"en_name": "Fiesta Pilar",
+		"fil_name": "Araw ng Kapistahan ni Nuestra Señora del Pilar",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Zamboanga City only in celebration of its patron saint, Nuestra Señora del Pilar.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-16",
+		"en_name": "Oroquieta City Day",
+		"fil_name": "Araw ng Lungsod ng Oroquieta",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Oroquieta only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-19",
+		"en_name": "Bacolod City Charter Day",
+		"fil_name": "Araw ng Pribilehiyo ng Lungsod ng Bacolod",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday only applies to Bacolod.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-20",
+		"en_name": "Leyte Landing Day",
+		"fil_name": "Araw ng Leyte Landing",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday applies to Tacloban only. Commemorates the landing of American and Filipinos forces on Palo Beach during the Battle of Leyte in 1944, signalling the beginning liberation of the country in the Second World War.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-26",
+		"en_name": "Foundation Day of Catanduanes",
+		"fil_name": "Araw ng Pagkakatatag ng Catanduanes",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Catanduanes only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "10-28",
+		"en_name": "Foundation Day of Davao Occidental",
+		"fil_name": "Araw ng Pagkakatatag ng Davao Occidental",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Davao Occidental only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-4",
+		"en_name": "President Carlos P. Garcia Day",
+		"fil_name": "Araw ni Pangulong Garcia",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Commemorates the birth of Carlos P. Garcia, the eighth President of the Philippines, native of Bohol. This special non-working holiday applies only to the Province of Bohol.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-5",
+		"en_name": "Al Cinco de Noviembre (Negros Day)",
+		"fil_name": "Araw ng Negros",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Also called Al Cinco de Noviembre, this special non-working holiday applies to the province of Negros Occidental only. Honors the 1898 Negros Revolution and those who took part.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-15",
+		"en_name": "Oriental Mindoro Day",
+		"fil_name": "Araw ng Silangang Mindoro",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to the province of Oriental Mindoro only, the province became an independent and separated from Occidental Mindoro via Republic Act No. 505 on this day in 1950.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "11-16",
+		"en_name": "Quirino Day",
+		"fil_name": "Araw ni Quirino",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "To commemorate the birth anniversary of late President Elpidio Quirino as declared under Presidential Proclamation No. 1927 dated November 15, 1979 issued by the late President Ferdinand E. Marcos. This special non-working holiday applies to the province of Ilocos Sur only, the very province on which he was born in its capital of Vigan.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-1",
+		"en_name": "Kabakahan Festival",
+		"fil_name": "Pista ng Kabakahan",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Padre Garcia, Batangas only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-2",
+		"en_name": "Pasay City Day",
+		"fil_name": "Araw ng Pasay",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special non-working holiday applies to Pasay only, the city was founded on this day in 1863.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-8",
+		"en_name": "Taguig Holiday",
+		"fil_name": "Araw ng Taguig",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "As per Proclamation No. 81 signed December 1, 2010, Taguig Holiday is celebrated henceforth every December 8.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-11",
+		"en_name": "Pampanga Day",
+		"fil_name": "Araw ng Pampanga",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "Under the virtue of Proclamation No. 2226 of late President Ferdinand Marcos. This special non-working holiday applies to the province of Pampanga only, celebrating its 1571 founding as one of the nation's oldest provinces.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-13",
+		"en_name": "General Trias Foundation Day and Valenciana Festival",
+		"fil_name": "Araw ng Pagkakatatag ng General Trias at Pistang Valenciana",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This special working holiday applies of General Trias only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-18",
+		"en_name": "López Jaena Day",
+		"fil_name": "Araw ni Lopez Jaena",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This regular holiday in Iloilo province and Iloilo City only. Honors Graciano López Jaena and his contributions to the Propaganda Movement of the 1880s.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-20",
+		"en_name": "Feast Day of Santa Lucia",
+		"fil_name": "Kapistahan ni Santa Lucia",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates Saint Lucy, the patron saint of the town of Santa Lucia, Ilocos Sur. This special non-working holiday applies to Santa Lucia, Ilocos Sur only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	},
+	{
+		"date": "12-29",
+		"en_name": " San Pedro Cityhood Day",
+		"fil_name": "Araw ng Pagkalungsod ng San Pedro",
+		"trans": "",
+		"type": "Locally Observed Holiday",
+		"description": "This day commemorates the cityhood of San Pedro, Laguna in 2013. This special non-working holiday applies to city of San Pedro only.",
+		"rule": { "inMonth": "", "inYear": "-1" }
+	}
+]

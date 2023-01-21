@@ -1,7 +1,7 @@
-const { authControllerRegister, authControllerLogin } = require("../controller/userController");
-const { default: jwtDecode } = require("jwt-decode");
+const { authControllerRegister, authControllerLogin } = require("../controller/userAuthController");
 const User = require("../model/User");
-const { createToken } = require("../token/createToken");
+const { createToken } = require("../utils/encode");
+const { getTokenData } = require("../utils/decode");
 
 const home = async (req, res) => {
 	if (!req.query?.access_token) return res.render("main");
@@ -16,7 +16,7 @@ const pricing = (req, res) => {
 const handleAuth = async (query, res, cookies) => {
 	const { access_token, expires_in, provider_token, refresh_token, token_type } = query;
 
-	const d = jwtDecode(access_token);
+	const d = getTokenData(access_token);
 
 	try {
 		let user = null;

@@ -48,9 +48,9 @@ loginForm.addEventListener("submit", async (event) => {
 });
 
 const errorMessage = document.querySelector("#error-message");
-
 const handleAuthError = () => {
 	let params = new URLSearchParams(window.location.search);
+	console.log(errorMessage);
 	if (!params.get("error")) return;
 	errorMessage.parentElement.classList.remove("hidden");
 	errorMessage.parentElement.classList.add("flex");
