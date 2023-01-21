@@ -1,10 +1,11 @@
-const { registerController, loginController } = require("../controller/userController");
+const { registerController, loginController } = require("../controller/userAuthController");
 const express = require("express");
 const app = express();
 // const cookieParser = require("cookie-parser");
-const { createToken } = require("../token/createToken");
+const { createToken, hash } = require("../utils/encode");
 const bodyParser = require("body-parser");
 const { createClient } = require("@supabase/supabase-js");
+const { unHash } = require("../utils/decode");
 
 require("dotenv");
 
@@ -21,7 +22,7 @@ const removeCookie = (res, key) => {
 };
 
 const login = (req, res) => {
-	// removeCookie(res, "token");
+	removeCookie(res, "token");
 	if (hasSignedUser(req)) return res.redirect("/");
 
 	res.render("login");
@@ -76,12 +77,15 @@ const postRegister = async (req, res) => {
 			msg: "Successfully Registered",
 			code: 200,
 			user,
+			redirect: "/verification?q=" + hash(email),
 		});
 	} catch (err) {
 		res.status(403).json({
 			email,
 			msg: err.message,
 			code: 403,
+			user: null,
+			redirect: "",
 		});
 	}
 };
@@ -117,8 +121,23 @@ const githubAuth = async (req, res) => {
 };
 
 const verification = (req, res) => {
+	const { q, resend } = req.query;
+	// removeCookie(res, "verification-expiry");
+	if (q) {
+		const email = unHash(q);
+		const TIMER = 8000;
+		if ((!req.cookies["verification-expiry"] && !req.cookies["sent"]) || resend === "true")
+			res.cookie("verification-expiry", Date.now() + TIMER);
+
+		if (!req.cookies["sent"]) res.cookie("sent", 1);
+
+		return res.render("verification", { email });
+	}
+
 	res.render("verification");
 };
+
+const postVerification = (req, res) => {};
 
 module.exports = {
 	register,

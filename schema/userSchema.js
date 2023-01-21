@@ -18,12 +18,15 @@ const userSchema = new Schema({
 	providers: {
 		type: [String],
 	},
+	verified: {
+		type: Boolean,
+	},
 });
 
 userSchema.statics.signup = async function (email, password) {
-	const exists = await this.findOne({ email });
+	const user = await this.findOne({ email });
 
-	if (exists) throw Error("Email already used!");
+	if (user && user?.verified) throw Error("Email already used!");
 
 	if (password.length < 8) throw Error("Password must be at least 8 characters");
 
@@ -32,7 +35,10 @@ userSchema.statics.signup = async function (email, password) {
 	let salt = await bcrypt.genSalt(10);
 	let hash = await bcrypt.hash(password, salt);
 
-	return this.create({ email, password: hash });
+	if (!user?.verified)
+		return this.findOneAndUpdate({ email }, { password: hash, verified: false });
+
+	return this.create({ email, password: hash, verified: false });
 };
 
 userSchema.statics.login = async function (email, password) {
@@ -40,7 +46,7 @@ userSchema.statics.login = async function (email, password) {
 
 	if (!validator.isEmail(email)) throw Error("Email is not valid");
 
-	let user = await this.findOne({ email });
+	let user = await this.findOne({ email, verified: true });
 
 	if (!user) throw Error("Incorrect email or password");
 
@@ -59,10 +65,11 @@ userSchema.statics.authRegister = async function (email, providers) {
 			email,
 			password: " ",
 			providers: providers,
+			verified: true,
 		});
 	}
 
-	return this.findOneAndUpdate({ email }, { providers });
+	return this.findOneAndUpdate({ email }, { providers, verified: true });
 };
 
 userSchema.statics.authLogin = async function (email, providers) {

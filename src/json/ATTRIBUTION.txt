@@ -1,0 +1,7 @@
+All the data in the date.json file are from the Wikipedia.
+
+Content from Wikipedia, the free encyclopedia. Licensed under CC BY-SA 3.0. 
+
+Refer here. https://en.wikipedia.org/wiki/Public_holidays_in_the_Philippines
+
+Wikipedia contributors. (2023, January 20). Public holidays in the Philippines. In Wikipedia, The Free Encyclopedia. Retrieved 04:36, January 21, 2023, from https://en.wikipedia.org/w/index.php?title=Public_holidays_in_the_Philippines&oldid=1134698088

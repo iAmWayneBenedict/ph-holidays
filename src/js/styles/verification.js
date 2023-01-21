@@ -1,4 +1,6 @@
 const codesContainer = document.querySelector(".code");
+const counter = document.querySelector("#counter");
+const resendBtn = document.querySelector("#resend-btn");
 
 const codes = Array.from(codesContainer.children);
 
@@ -41,3 +43,63 @@ for (let index = 0; index < codes.length; index++) {
 		codes[index - 1].value = "";
 	});
 }
+
+const getCookie = (cname) => {
+	let name = cname + "=";
+	let decodedCookie = decodeURIComponent(document.cookie);
+	let ca = decodedCookie.split(";");
+	for (let i = 0; i < ca.length; i++) {
+		let c = ca[i];
+		while (c.charAt(0) == " ") {
+			c = c.substring(1);
+		}
+		if (c.indexOf(name) == 0) {
+			return c.substring(name.length, c.length);
+		}
+	}
+	return "";
+};
+
+const deleteCookie = (name) => {
+	document.cookie = name + "=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;";
+};
+
+const formatTime = (time) => {
+	let minutes = Math.floor(time / 1000 / 60);
+	let seconds = new Intl.NumberFormat("en-US", {
+		minimumIntegerDigits: 2,
+	}).format(Math.floor((time / 1000) % 60));
+
+	return `${minutes}:${seconds}`;
+};
+
+let expiry = parseInt(getCookie("verification-expiry"));
+const verificationCounter = () => {
+	if (!getCookie("verification-expiry")) {
+		counter.parentElement.classList.add("hidden");
+		return;
+	}
+
+	if (Date.now() > expiry) {
+		deleteCookie("verification-expiry");
+		counter.parentElement.classList.add("hidden");
+		return;
+	}
+
+	let remainingTime = expiry - Date.now();
+
+	counter.textContent = formatTime(remainingTime);
+};
+
+verificationCounter();
+
+setInterval(() => {
+	verificationCounter();
+}, 1000);
+
+resendBtn.addEventListener("click", (event) => {
+	if (Date.now() < expiry) event.preventDefault();
+
+	resendBtn.href = window.location.href + "&resend=true";
+	resendBtn.click();
+});
