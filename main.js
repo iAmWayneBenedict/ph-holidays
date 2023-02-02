@@ -9,6 +9,9 @@ const config = require("./config");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
+const { inject } = require("@vercel/analytics");
+
+inject();
 
 app.use(express.static(path.join(__dirname + "/src")));
 
