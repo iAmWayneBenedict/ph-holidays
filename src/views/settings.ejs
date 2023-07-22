@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<%- include("layouts/metadata") %>
+	</head>
+
+	<body class="container mx-auto p-5" style="font-family: Montserrat">
+		<%- include("components/nav") %>
+		<div class="flex flex-row mx-0 xl:mx-24 2xl:mx-36 gap-0 lg:gap-10">
+			<aside class="w-80 hidden lg:block mt-10">
+				<div class="relative lg:sticky lg:top-10 hidden lg:flex flex-col gap-5">
+					<a
+						href="#base_url"
+						class="side-links relative w-fit flex items-center gap-2 after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="w-4 h-4 transition-all"
+							fill="#878C8D"
+							viewBox="0 0 448 512"
+						>
+							<path
+								d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+							/>
+						</svg>
+						<span>Profile</span>
+					</a>
+					<a
+						href="#get_todays_info"
+						class="side-links relative w-fit flex items-center gap-2 after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="w-4 h-4 transition-all"
+							fill="#878C8D"
+							viewBox="0 0 448 512"
+						>
+							<path
+								d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+							/>
+						</svg>
+						<span>Security</span>
+					</a>
+					<a
+						href="#get_per_year"
+						class="side-links relative w-fit flex items-center gap-2 after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							class="w-4 h-4 transition-all"
+							fill="#878C8D"
+							viewBox="0 0 448 512"
+						>
+							<path
+								d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"
+							/>
+						</svg>
+						<span>API Configuration</span>
+					</a>
+					<a
+						href=""
+						class="relative mt-10 text-red-600 font-semibold w-fit flex items-center gap-2 after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
+					>
+						<span>Logout</span>
+					</a>
+				</div>
+			</aside>
+			<main class="flex flex-col w-full gap-10">
+				<h1 class="font-semibold text-2xl">Profile Details</h1>
+
+				<div class="">
+					<%- include("components/input", { label: "Email", type: "email", placeholder:
+					"", name: "email", error: "sample error", isError: false, value: "test@test.com"
+					}) %>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>

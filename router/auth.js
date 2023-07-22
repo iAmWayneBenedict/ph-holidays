@@ -24,12 +24,33 @@ const hasSignedUser = (req) => {
 	return !!Object.keys(req.signedCookies).length;
 };
 
+const verifySignedUser = (req, res) => {
+	if (hasSignedUser(req)) {
+		res.status(200).json({
+			msg: "Verified user",
+			code: 200,
+			user: "",
+			redirect: req.query.redirect,
+		});
+
+		return;
+	}
+
+	res.status(403).json({
+		msg: "User not found",
+		code: 404,
+		user: null,
+		redirect: "/",
+	});
+};
+
 const removeCookie = (res, key) => {
 	res.clearCookie(key);
 };
 
 const login = (req, res) => {
-	// removeCookie(res, "token");
+	removeCookie(res, "token");
+	console.log(req.signedCookies);
 	if (hasSignedUser(req)) return res.redirect("/");
 
 	res.render("login");
@@ -212,4 +233,5 @@ module.exports = {
 	githubAuth,
 	verification,
 	postVerification,
+	verifySignedUser,
 };
