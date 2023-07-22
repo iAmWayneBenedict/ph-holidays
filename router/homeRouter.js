@@ -13,6 +13,14 @@ const pricing = (req, res) => {
 	res.render("pricing");
 };
 
+const docs = (req, res) => {
+	res.render("documentation");
+};
+
+const settings = (req, res) => {
+	res.render("settings");
+};
+
 const handleAuth = async (query, res, cookies) => {
 	const { access_token, expires_in, provider_token, refresh_token, token_type } = query;
 
@@ -45,4 +53,6 @@ const handleAuth = async (query, res, cookies) => {
 module.exports = {
 	home,
 	pricing,
+	settings,
+	docs,
 };

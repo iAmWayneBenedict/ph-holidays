@@ -1,9 +1,9 @@
-<nav class="flex justify-between py-5 mb-28 items-center">
+<nav class="flex justify-between py-5 items-center">
 	<div class="font-bold">PH Holidays &#x1F1F5;&#x1F1ED;</div>
 	<div class="gap-20 hidden md:flex">
 		<a
 			class="relative after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
-			href="/"
+			href="/docs"
 			>Docs</a
 		><a
 			class="relative after:absolute after:bottom-[-5px] after:left-0 after:bg-[#F49D1A] after:w-0 after:h-[2px] hover:after:w-full after:transition-all"
@@ -34,8 +34,28 @@
 				></path>
 			</svg>
 		</a>
-		<a href="/login" class="bg-[#F49D1A] text-white py-2 px-4 font-semibold hidden md:flex">
+		<a
+			href="/login"
+			class="get-started-btn bg-[#F49D1A] text-white py-2 px-4 font-semibold hidden md:flex"
+		>
 			Get Started
+		</a>
+		<a href="/settings" class="settings-btn">
+			<svg
+				xmlns="http://www.w3.org/2000/svg"
+				width="22"
+				height="22"
+				fill="currentColor"
+				class="bi bi-gear"
+				viewBox="0 0 16 16"
+			>
+				<path
+					d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"
+				/>
+				<path
+					d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"
+				/>
+			</svg>
 		</a>
 		<button
 			class="hamburger flex md:hidden flex-col justify-evenly items-center w-[35px] h-[35px] z-50 transition-all duration-300"
@@ -50,7 +70,10 @@
 	class="backdrop z-20 hidden fixed top-0 left-0 w-full h-full bg-white transition-all duration-1000"
 >
 	<div class="gap-5 flex flex-col items-center justify-center w-full h-full">
-		<a href="/login" class="bg-[#F49D1A] text-white py-2 px-4 font-semibold flex w-fit">
+		<a
+			href="/login"
+			class="get-started-btn bg-[#F49D1A] text-white py-2 px-4 font-semibold flex w-fit"
+		>
 			Get Started
 		</a>
 		<a
@@ -68,3 +91,27 @@
 		>
 	</div>
 </div>
+
+<script defer src="../../js/styles/nav.js"></script>
+
+<script>
+	const getStartedBtns = document.querySelectorAll(".get-started-btn");
+	const settings = document.querySelector(".settings-btn");
+	(async () => {
+		const response = await fetch("/verify-user");
+		const data = await response.json();
+		if (data.code === 200) {
+			[...getStartedBtns].forEach((el) => {
+				el.style.display = "none";
+				console.log(el);
+			});
+
+			settings.style.display = "flex";
+		} else {
+			[...getStartedBtns].forEach((el) => {
+				el.style.display = "flex";
+			});
+			settings.style.display = "none";
+		}
+	})();
+</script>

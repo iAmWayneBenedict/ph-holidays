@@ -6,3 +6,7 @@ const getUserById = (_id) => {
 
 	return user;
 };
+
+module.exports = {
+	getUserById,
+};

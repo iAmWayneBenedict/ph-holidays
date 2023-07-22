@@ -37,7 +37,7 @@ userSchema.statics.signup = async function (email, password) {
 
 	if (!user?.verified && user)
 		return this.findOneAndUpdate({ email }, { password: hash, verified: false });
-	console.log("created");
+
 	return this.create({ email, password: hash, verified: false });
 };
 
